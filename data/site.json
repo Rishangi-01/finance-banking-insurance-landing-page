@@ -1,0 +1,3213 @@
+{
+  "Insurance": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Site": "InsuranceSite1",
+          "Header": "InsuranceHeader1",
+          "Footer": "InsuranceFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "InsuranceHero1"
+              },
+              {
+                "key": "Highlights",
+                "component": "InsuranceHighlights1"
+              },
+              {
+                "key": "About",
+                "component": "InsuranceAbout1"
+              },
+              {
+                "key": "Plans",
+                "component": "InsurancePlans1"
+              },
+              {
+                "key": "Process",
+                "component": "InsuranceProcess1"
+              },
+              {
+                "key": "Stats",
+                "component": "InsuranceStats1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "InsuranceTestimonials1"
+              },
+              {
+                "key": "Cta",
+                "component": "InsuranceCta1"
+              },
+              {
+                "key": "Blog",
+                "component": "InsuranceBlog1"
+              }
+            ]
+          },
+          "about-us": {
+            "components": [
+              {
+                "key": "About",
+                "component": "InsuranceAbout1"
+              },
+              {
+                "key": "Stats",
+                "component": "InsuranceStats1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "InsuranceWhyChooseUs1"
+              }
+            ]
+          },
+          "insurance-plans": {
+            "components": [
+              {
+                "key": "Plans",
+                "component": "InsurancePlans1"
+              }
+            ]
+          },
+          "insurance-plan-detail": {
+            "expand": "items",
+            "components": [
+              {
+                "key": "PlanDetail",
+                "component": "InsurancePlanDetail1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "blogs": {
+            "components": [
+              {
+                "key": "Blog",
+                "component": "InsuranceBlog1"
+              }
+            ]
+          },
+          "blog-detail": {
+            "expand": "items",
+            "components": [
+              {
+                "key": "BlogDetail",
+                "component": "InsuranceBlogDetail1"
+              }
+            ]
+          },
+          "contact-us": {
+            "components": [
+              {
+                "key": "ContactPage",
+                "component": "InsuranceContactPage1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "enquire-now": {
+            "components": [
+              {
+                "key": "EnquirePage",
+                "component": "InsuranceEnquirePage1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "InsuranceEnquiryForm1"
+              }
+            ]
+          },
+          "thank-you": {
+            "components": [
+              {
+                "key": "ThankYouPage",
+                "component": "InsuranceThankYouPage1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "FaqPage",
+                "component": "InsuranceFaqPage1"
+              }
+            ]
+          },
+          "privacy-policy": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "terms-and-conditions": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "cookie-policy": {
+            "components": [
+              {
+                "key": "PolicyPages",
+                "component": "InsurancePolicyPages1"
+              }
+            ]
+          },
+          "sitemap": {
+            "components": [
+              {
+                "key": "SitemapPage",
+                "component": "InsuranceSitemapPage1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "commerce": {
+      "productDetails": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/hero.webp",
+            "alt": "Elegant fine jewellery with gold bracelets and diamond rings"
+          },
+          "heading": "Collection Detail",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Collection Detail"
+        },
+        "product": {
+          "name": "Eternal Premium Diamond Ring",
+          "price": 2499,
+          "rating": 4.8,
+          "reviews": 24,
+          "description": "A symbol of everlasting love, this exquisite diamond ring features a brilliant-cut center stone set in 18k gold, designed to shine for a lifetime. Crafted in premium white gold, this elegant piece is perfect for engagements, anniversaries or special occasions. This elegant ring showcases a brilliant round-cut diamond, carefully set in a handcrafted 18k gold band. Designed for those who appreciate fine craftsmanship and timeless beauty.",
+          "enquiryNow": {
+            "label": "Enquiry Now",
+            "href": "/enquiry-now"
+          },
+          "features": [
+            {
+              "label": "18k Gold",
+              "icon": "gem"
+            },
+            {
+              "label": "Certified Diamond",
+              "icon": "shield"
+            },
+            {
+              "label": "Lifetime Warranty",
+              "icon": "returns"
+            },
+            {
+              "label": "Free Shipping",
+              "icon": "truck"
+            }
+          ],
+          "sizes": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "initialSize": "7",
+          "images": [
+            {
+              "src": "/images/home/banner3.webp",
+              "alt": "Eternal diamond ring front view"
+            },
+            {
+              "src": "/images/about/banner1.webp",
+              "alt": "Diamond ring side detail"
+            },
+            {
+              "src": "/images/home/banner2.webp",
+              "alt": "Luxury jewelry close-up"
+            }
+          ]
+        },
+        "copy": {
+          "collection": "The Signature Collection",
+          "reviews": "{count} reviews",
+          "ratingAria": "Rated {rating} out of 5",
+          "selectSize": "Select Ring Size",
+          "sizeGuide": "Size Guide",
+          "quantity": "Quantity",
+          "decreaseQuantity": "Decrease quantity",
+          "increaseQuantity": "Increase quantity",
+          "addToCart": "Add to Cart",
+          "addedToCart": "Added to Cart",
+          "addToWishlist": "Add to Wishlist",
+          "addedToWishlist": "Added to Wishlist",
+          "removeFromWishlist": "Remove from wishlist",
+          "addProductToWishlist": "Add to wishlist",
+          "addedConfirmation": "Added to your shopping bag",
+          "cartCount": "Demo cart items added: {count}",
+          "dismissConfirmation": "Dismiss confirmation",
+          "previousImage": "Previous product image",
+          "nextImage": "Next product image",
+          "viewImage": "View image {index}",
+          "findFit": "Find your perfect fit",
+          "sizeGuideTitle": "Ring Size Guide",
+          "closeSizeGuide": "Close size guide",
+          "sizeGuideDescription": "Select your preferred size. Ring sizing can vary by region, so please confirm the sizing system before ordering.",
+          "sizeColumn": "Size",
+          "fitColumn": "Fit",
+          "selectedSize": "Currently selected",
+          "availableSize": "Available",
+          "sizeGuideNote": "This sample guide uses placeholder size labels. Replace these with your jeweler's verified size chart.",
+          "done": "Done"
+        }
+      },
+      "productExtraDetails": {
+        "eyebrow": "The Details",
+        "title": "Product Specifications",
+        "image": {
+          "src": "/images/home/banner3.webp",
+          "alt": "Eternal diamond ring in white gold"
+        },
+        "specifications": [
+          {
+            "label": "Diamond Type",
+            "value": "Lab-Grown Diamond"
+          },
+          {
+            "label": "Carat Weight",
+            "value": "1 Carat (ct.)"
+          },
+          {
+            "label": "Cut",
+            "value": "Round Brilliant Cut"
+          },
+          {
+            "label": "Color",
+            "value": "F (Near Colorless)"
+          },
+          {
+            "label": "Clarity",
+            "value": "VS1"
+          },
+          {
+            "label": "Metal Type",
+            "value": "White Gold (18K)"
+          },
+          {
+            "label": "Ring Size",
+            "value": "Available in All Sizes"
+          },
+          {
+            "label": "Certification",
+            "value": "IGI Certified"
+          }
+        ]
+      },
+      "productListing": {
+        "products": [
+          {
+            "id": 1,
+            "name": "Eternal Diamond Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 3499,
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 2,
+            "name": "Golden Bloom Necklace",
+            "category": "Necklaces",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 4999,
+            "image": "/images/our-story/product4.webp",
+            "badge": "Bestseller"
+          },
+          {
+            "id": 3,
+            "name": "Pearl Drop Earrings",
+            "category": "Earrings",
+            "materials": [
+              "Gold",
+              "Silver"
+            ],
+            "price": 2199,
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 4,
+            "name": "Royal Bangle",
+            "category": "Bracelets",
+            "materials": [
+              "Gold"
+            ],
+            "price": 1499,
+            "image": "/images/about/banner1.webp"
+          },
+          {
+            "id": 5,
+            "name": "Solitaire Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold",
+              "Diamond",
+              "Platinum"
+            ],
+            "price": 3299,
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 6,
+            "name": "Celestial Earrings",
+            "category": "Earrings",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 3299,
+            "image": "/images/home/banner4.webp"
+          },
+          {
+            "id": 7,
+            "name": "Golden Halo Ring",
+            "category": "Rings",
+            "materials": [
+              "Gold"
+            ],
+            "price": 2599,
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 8,
+            "name": "Classic Gold Chain",
+            "category": "Necklaces",
+            "materials": [
+              "Gold"
+            ],
+            "price": 1899,
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 9,
+            "name": "Golden Charm Bracelet",
+            "category": "Bracelets",
+            "materials": [
+              "Gold",
+              "Diamond"
+            ],
+            "price": 2899,
+            "image": "/images/home/banner4.webp"
+          }
+        ],
+        "categories": [
+          "Rings",
+          "Necklaces",
+          "Earrings",
+          "Bracelets"
+        ],
+        "materials": [
+          "Gold",
+          "Diamond",
+          "Platinum",
+          "Silver"
+        ],
+        "pageSize": 6,
+        "minimumPrice": 0,
+        "maxPrice": 50000,
+        "priceStep": 500,
+        "defaultSort": "featured",
+        "sortOptions": [
+          {
+            "value": "featured",
+            "label": "Best Selling"
+          },
+          {
+            "value": "price-low",
+            "label": "Price: Low to High"
+          },
+          {
+            "value": "price-high",
+            "label": "Price: High to Low"
+          },
+          {
+            "value": "name",
+            "label": "Name: A to Z"
+          }
+        ],
+        "copy": {
+          "filters": "Filters",
+          "clearAll": "Clear all",
+          "category": "Category",
+          "priceRange": "Price Range",
+          "maximumPrice": "Maximum price",
+          "materials": "Material",
+          "sortBy": "Sort By",
+          "sortProducts": "Sort products",
+          "sort": "Sort",
+          "productsCount": "{count} products",
+          "showing": "Showing",
+          "of": "of",
+          "crafted": "Crafted to be cherished",
+          "viewProduct": "View Product",
+          "viewProductAria": "View {name}",
+          "addToWishlist": "Add {name} to wishlist",
+          "removeFromWishlist": "Remove {name} from wishlist",
+          "inclusiveTaxes": "Inclusive of taxes",
+          "noProducts": "No pieces found",
+          "emptyDescription": "Try changing your filters to discover more of our collection.",
+          "clearFilters": "Clear Filters",
+          "previousPage": "Previous page",
+          "page": "Page {page}",
+          "nextPage": "Next page",
+          "closeFilters": "Close filters",
+          "productFilters": "Product filters",
+          "showProducts": "Show {count} Products",
+          "resetFilters": "Reset Filters",
+          "minimumPrice": "₹0",
+          "collectionHref": "/collections/collection-details"
+        }
+      },
+      "gallery": {
+        "headingPrefix": "Our",
+        "headingHighlight": "Gallery",
+        "description": "Explore our exquisite collection of handcrafted jewellery, capturing timeless elegance and fine craftsmanship.",
+        "paginationAriaLabel": "Gallery pagination",
+        "previousPageLabel": "Previous page",
+        "nextPageLabel": "Next page",
+        "goToPageLabelTemplate": "Go to gallery page {page}",
+        "pageLabelTemplate": "Page {current} of {total}",
+        "itemsPerPage": 6,
+        "items": [
+          {
+            "id": 1,
+            "title": "Traditional Gold Necklace",
+            "category": "Gold Jewellery",
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 2,
+            "title": "Diamond Solitaire Ring",
+            "category": "Diamond Jewellery",
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 3,
+            "title": "Diamond Drop Earrings",
+            "category": "Earrings",
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 4,
+            "title": "Diamond Tennis Bangles",
+            "category": "Bangles",
+            "image": "/images/our-story/product5.webp"
+          },
+          {
+            "id": 5,
+            "title": "Emerald Statement Ring",
+            "category": "Gemstone Jewellery",
+            "image": "/images/home/banner2.webp"
+          },
+          {
+            "id": 6,
+            "title": "Gold Pendant Necklace",
+            "category": "Necklaces",
+            "image": "/images/home/banner3.webp"
+          },
+          {
+            "id": 7,
+            "title": "Classic Gold Earrings",
+            "category": "Gold Jewellery",
+            "image": "/images/home/banner4.webp"
+          },
+          {
+            "id": 8,
+            "title": "Diamond Halo Ring",
+            "category": "Diamond Jewellery",
+            "image": "/images/home/banner2.webp"
+          },
+          {
+            "id": 9,
+            "title": "Elegant Pearl Earrings",
+            "category": "Earrings",
+            "image": "/images/collections/product1.webp"
+          },
+          {
+            "id": 10,
+            "title": "Gold Diamond Bracelet",
+            "category": "Bracelets",
+            "image": "/images/our-story/product2.webp"
+          },
+          {
+            "id": 11,
+            "title": "Ruby Gold Ring",
+            "category": "Gemstone Jewellery",
+            "image": "/images/our-story/product3.webp"
+          },
+          {
+            "id": 12,
+            "title": "Floral Diamond Pendant",
+            "category": "Necklaces",
+            "image": "/images/our-story/product4.webp"
+          },
+          {
+            "id": 13,
+            "title": "Royal Gold Necklace",
+            "category": "Gold Jewellery",
+            "image": "/images/our-story/product5.webp"
+          }
+        ]
+      },
+      "blog": {
+        "sectionEyebrow": "Fertility Insights",
+        "headingPrefix": "Latest updates and",
+        "headingHighlight": "expert fertility",
+        "headingSuffix": " insights",
+        "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+        "linkTemplate": "/blog/blog-details",
+        "detailsHref": "/blog/blog-details",
+        "readLabelTemplate": "Read {title}",
+        "moreDetailsLabel": "More Details",
+        "paginationAriaLabel": "Blog pagination",
+        "previousPageLabel": "Previous page",
+        "goToPageLabelTemplate": "Go to page {page}",
+        "nextPageLabel": "Next page",
+        "showingLabel": "Showing",
+        "rangeSeparator": "–",
+        "ofLabel": "of",
+        "articlesLabel": "articles",
+        "postsPerPage": 6,
+        "posts": [
+          {
+            "id": 1,
+            "category": "Fertility Insights",
+            "title": "How lifestyle choices can improve your chances of conception",
+            "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "image": "/images/home/success-story1.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "lifestyle-choices-and-conception"
+          },
+          {
+            "id": 2,
+            "category": "IVF Guides",
+            "title": "What to expect during your IVF treatment journey",
+            "description": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "image": "/images/home/success-story2.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "ivf-treatment-journey"
+          },
+          {
+            "id": 3,
+            "category": "Women's Health",
+            "title": "Understanding PCOS and its impact on fertility",
+            "description": "Understanding PCOS and its impact on fertility",
+            "image": "/images/home/success-story3.webp",
+            "date": "Oct 16",
+            "year": "2026",
+            "slug": "pcos-and-fertility"
+          },
+          {
+            "id": 4,
+            "category": "Care Tips",
+            "title": "Jewellery Care Tips to Keep Your Pieces Shining",
+            "description": "Keep your jewellery beautiful for years with these simple yet effective care tips. Learn how to clean, store and maintain your precious pieces.",
+            "image": "/images/our-story/product5.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "jewellery-care-tips"
+          },
+          {
+            "id": 5,
+            "category": "Traditional",
+            "title": "Traditional Jewellery Designs That Never Go Out of Style",
+            "description": "Explore timeless traditional jewellery designs that celebrate heritage, craftsmanship and elegance, perfect for every occasion.",
+            "image": "/images/home/banner2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "traditional-jewellery-designs"
+          },
+          {
+            "id": 6,
+            "category": "Buying Guide",
+            "title": "How to Choose the Perfect Jewellery for Any Occasion",
+            "description": "Find the right jewellery for weddings, parties, office wear and daily use with our expert buying guide. Learn what to consider for every occasion.",
+            "image": "/images/home/banner3.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "choose-perfect-jewellery"
+          },
+          {
+            "id": 7,
+            "category": "Diamond Guide",
+            "title": "How to Choose the Perfect Diamond",
+            "description": "Understand the four Cs of diamonds and discover what to look for when choosing a beautiful piece for your collection.",
+            "image": "/images/home/banner4.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "perfect-diamond-guide"
+          },
+          {
+            "id": 8,
+            "category": "Gold Guide",
+            "title": "Understanding Gold Purity Before You Buy",
+            "description": "Learn about gold purity, karats and hallmarks so you can choose jewellery with confidence and clarity.",
+            "image": "/images/our-story/product2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "understanding-gold-purity"
+          },
+          {
+            "id": 9,
+            "category": "Style Guide",
+            "title": "Everyday Jewellery That Feels Effortlessly Elegant",
+            "description": "Explore versatile necklaces, earrings and bracelets that bring understated elegance to your everyday outfits.",
+            "image": "/images/our-story/product3.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "everyday-jewellery"
+          },
+          {
+            "id": 10,
+            "category": "Bridal Guide",
+            "title": "A Guide to Choosing Your Wedding Necklace",
+            "description": "Find the right necklace for your neckline, wedding outfit and personal style with these timeless bridal styling ideas.",
+            "image": "/images/our-story/product4.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "wedding-necklace-guide"
+          },
+          {
+            "id": 11,
+            "category": "Inspiration",
+            "title": "Finding Your Signature Jewellery Style",
+            "description": "Discover how to build a jewellery collection that reflects your personality, preferences and favourite occasions.",
+            "image": "/images/our-story/product2.webp",
+            "date": "JAN 20",
+            "year": "2025",
+            "slug": "signature-jewellery-style"
+          }
+        ]
+      },
+      "blogDetails": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/about/maternity-hero.webp",
+            "alt": "Expecting mother relaxing comfortably at home"
+          },
+          "heading": "Blog Details",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Blog Details"
+        },
+        "eyebrow": "Fertility Insights",
+        "headingFirst": "Understanding Your Fertility Journey: ",
+        "headingHighlight": "A Guide to Your Next Steps",
+        "dateTime": "2025-01-20",
+        "dateLabel": "JAN 20, 2025",
+        "introduction": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+        "image": {
+          "src": "/images/home/success-story1.webp",
+          "alt": "A mother holding her baby, representing family and reproductive health"
+        },
+        "quotation": "The right next step begins with reliable information and care tailored to your needs.",
+        "backLabel": "Back to Articles",
+        "articleHeading": "Understanding your fertility journey",
+        "disclaimer": {
+          "label": "Medical disclaimer:",
+          "text": "This article is for general educational purposes only and is not a substitute for medical advice, diagnosis, or treatment. Please consult a qualified healthcare professional for guidance specific to your situation."
+        },
+        "tips": [
+          {
+            "number": "01.",
+            "title": "A Guide to Getting Started",
+            "sectionTitle": "Understanding your fertility journey",
+            "paragraphs": [
+              "Fertility is a personal aspect of health, and every individual or couple may have different questions, circumstances, and goals. Understanding your options can help you have informed conversations with a qualified healthcare professional.",
+              "A good starting point is to discuss your medical history, concerns, and expectations with your healthcare provider. They can help determine which assessments, if any, may be appropriate for you."
+            ]
+          },
+          {
+            "number": "02.",
+            "title": "Lifestyle and reproductive health",
+            "sectionTitle": "Lifestyle and reproductive health",
+            "paragraphs": [
+              "General health habits can support overall well-being. Eating a varied, balanced diet, getting adequate rest, avoiding tobacco, and discussing medications or supplements with a clinician can all be useful topics to consider.",
+              "Lifestyle changes cannot guarantee conception. Your age, medical history, and other factors may influence fertility, so personalized guidance is important."
+            ]
+          },
+          {
+            "number": "03.",
+            "title": "Understanding treatment options",
+            "sectionTitle": "Understanding treatment options",
+            "paragraphs": [
+              "Depending on your circumstances, a specialist may discuss diagnostic testing, medication, intrauterine insemination (IUI), in vitro fertilization (IVF), or other approaches. Not every option is appropriate for every person."
+            ],
+            "cards": [
+              {
+                "icon": "heart",
+                "title": "Personalized guidance",
+                "text": "Discuss your health history and potential options with a qualified fertility specialist."
+              },
+              {
+                "icon": "message-circle",
+                "title": "Clear communication",
+                "text": "Ask about benefits, risks, costs, alternatives, and what to expect at each stage."
+              }
+            ]
+          },
+          {
+            "number": "04.",
+            "title": "Questions to ask your specialist",
+            "sectionTitle": "Questions to ask your specialist",
+            "paragraphs": [
+              "Preparing questions before an appointment can help you understand the available choices and feel more comfortable participating in decisions about your care.",
+              "Which assessments might be appropriate for my situation?",
+              "What treatment options could be considered, and why?",
+              "What are the possible risks, benefits, and costs?",
+              "Where can I find reliable support and information?"
+            ]
+          }
+        ]
+      },
+      "enquiryNow": {
+        "hero": {
+          "breadcrumbLabel": "Breadcrumb",
+          "image": {
+            "src": "/images/about/maternity-hero.webp",
+            "alt": "Expecting mother relaxing comfortably at home"
+          },
+          "heading": "Book An Appointment",
+          "homeLabel": "Home",
+          "homeHref": "/",
+          "currentLabel": "Book An Appointment"
+        },
+        "section": {
+          "image": {
+            "src": "/images/home/banner1.webp",
+            "alt": "Expectant couple sharing a joyful moment during their journey to parenthood"
+          },
+          "benefitsHeader": {
+            "eyebrow": "Schedule a Visit",
+            "title": "Let's Get Started",
+            "description": "Complete the form to request your visit."
+          },
+          "benefits": [
+            {
+              "icon": "HeartPulse",
+              "title": "Compassionate Care",
+              "description": "With heart at every step"
+            },
+            {
+              "icon": "UserRound",
+              "title": "Expert Team",
+              "description": "Skilled and experienced"
+            },
+            {
+              "icon": "MonitorCheck",
+              "title": "Advanced Technology",
+              "description": "For better care"
+            },
+            {
+              "icon": "UsersRound",
+              "title": "Personalized Approach",
+              "description": "Because you are unique"
+            }
+          ],
+          "form": {
+            "eyebrow": "Schedule a Visit",
+            "title": "Let's Get Started",
+            "description": "Complete the form to request your visit.",
+            "fields": {
+              "fullName": {
+                "label": "First Name *",
+                "placeholder": "Your first name"
+              },
+              "email": {
+                "label": "Email Address *",
+                "placeholder": "you@example.com"
+              },
+              "phone": {
+                "label": "Phone Number *",
+                "placeholder": "+1 00000000"
+              },
+              "interest": {
+                "label": "Consultation Type *",
+                "placeholder": "Select a consultation",
+                "options": [
+                  "Fertility Consultation",
+                  "IVF Consultation",
+                  "IUI Consultation",
+                  "PCOS & Reproductive Health",
+                  "Pregnancy Consultation",
+                  "Follow-up Appointment",
+                  "Online Consultation"
+                ]
+              },
+              "lastName": {
+                "label": "Last Name *",
+                "placeholder": "Your last name"
+              },
+              "doctor": {
+                "label": "Preferred Specialist",
+                "options": [
+                  "Any Available Specialist",
+                  "Fertility Specialist",
+                  "Gynecologist",
+                  "Reproductive Health Consultant"
+                ]
+              },
+              "date": {
+                "label": "Preferred Date *"
+              },
+              "time": {
+                "label": "Preferred Time *",
+                "placeholder": "Select time",
+                "options": [
+                  "09:00 AM",
+                  "10:00 AM",
+                  "11:00 AM",
+                  "12:00 PM",
+                  "02:00 PM",
+                  "03:00 PM",
+                  "04:00 PM",
+                  "05:00 PM"
+                ]
+              },
+              "appointmentType": {
+                "label": "How would you like to meet?",
+                "options": [
+                  {
+                    "value": "In-clinic",
+                    "label": "In-clinic Visit"
+                  },
+                  {
+                    "value": "Online",
+                    "label": "Online Consultation"
+                  }
+                ]
+              },
+              "message": {
+                "label": "Additional Notes (Optional)",
+                "placeholder": "Anything you'd like us to know?",
+                "maxLength": 3000,
+                "counterSeparator": "/"
+              }
+            },
+            "status": {
+              "success": "Your enquiry has been submitted successfully.",
+              "error": "We couldn't submit your enquiry. Please try again.",
+              "requestError": "Unable to submit enquiry."
+            },
+            "submit": {
+              "label": "Submit Enquiry",
+              "submitting": "Submitting..."
+            },
+            "privacyNotice": "Your information should be handled securely and confidentially by the connected booking system."
+            ,
+            "appointment": {
+              "successTitle": "Request Prepared!",
+              "successText": "Your form passed browser validation. To confirm a real appointment, this page needs to be connected to your booking system or backend API.",
+              "successButton": "Book Another Appointment",
+              "submitLabel": "Request Appointment"
+            }
+          }
+        }
+      },
+      "signatureCollections": {
+        "eyebrow": "Comprehensive Fertility Treatments",
+        "title": "Fertility Treatments",
+        "viewAll": {
+          "label": "Our Services",
+          "href": "/services"
+        },
+        "collections": [
+          {
+            "name": "Maternity Care",
+            "description": "Compassionate support throughout your pregnancy.",
+            "image": "/images/home/wellness1.webp",
+            "alt": "Maternity Care at Hope IVF",
+            "number": "01"
+          },
+          {
+            "name": "Gynecology",
+            "description": "Personalized care for women's health at every stage.",
+            "image": "/images/home/wellness2.webp",
+            "alt": "Gynecology at Hope IVF",
+            "number": "02"
+          },
+          {
+            "name": "Pediatric Care",
+            "description": "Thoughtful healthcare for infants and growing children.",
+            "image": "/images/home/wellness3.webp",
+            "alt": "Pediatric Care at Hope IVF",
+            "number": "03"
+          },
+          {
+            "name": "Radiology",
+            "description": "Modern diagnostic imaging and clinical support.",
+            "image": "/images/home/wellness4.webp",
+            "alt": "Radiology at Hope IVF",
+            "number": "04"
+          }
+        ]
+      }
+    },
+    "sections": {
+      "Site": {
+        "variants": {
+          "InsuranceSite1": {
+            "bgImage": "/images/contact-bg.png",
+            "alt": "FinSecure Financial Advisory Services",
+            "name": "FinSecure",
+            "description": "We are a customer-focused financial services company, committed to delivering reliable banking, smart investment and comprehensive insurance solutions for individuals, families and businesses.",
+            "logo": "/images/logo.png",
+            "logoWhite": "/images/white-logo.png",
+            "heroImage": "/images/financial-advisor.png",
+            "heroImageAlt": "Financial analyst reviewing investment market performance",
+            "metadata": {
+              "title": "FinSecure Financial Advisory Services",
+              "description": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth."
+            },
+            "mobileMenu": {
+              "openLabel": "Open navigation menu",
+              "closeLabel": "Close navigation menu",
+              "contactLabel": "Contact Us",
+              "contactHref": "/contact",
+              "ariaLabel": "Mobile navigation",
+              "phoneLabel": "+1 (555) 123-4567",
+              "phoneHref": "tel:+15551234567",
+              "emailLabel": "info@finsecure.com",
+              "emailHref": "mailto:info@finsecure.com"
+            },
+            "addressLines": [
+              "New York,",
+              "USA"
+            ],
+            "emails": [
+              "info@finsecure.com"
+            ],
+            "phones": [
+              "+1 (555) 123-4567"
+            ],
+            "callLabel": "Call Us",
+            "bannerImage": "/images/financial-advisor.png",
+            "socials": [
+              {
+                "icon": "FaFacebookF",
+                "symbol": "f",
+                "label": "Facebook",
+                "href": "#"
+              },
+              {
+                "icon": "FaInstagram",
+                "symbol": "◎",
+                "label": "Instagram",
+                "href": "#"
+              },
+              {
+                "icon": "FaYoutube",
+                "symbol": "▶",
+                "label": "YouTube",
+                "href": "#"
+              },
+              {
+                "icon": "FaLinkedinIn",
+                "symbol": "in",
+                "label": "LinkedIn",
+                "href": "#"
+              }
+            ],
+            "hours": [
+              {
+                "days": "Monday – Saturday",
+                "daysShort": "Mon - Sat",
+                "time": "10:00 AM – 7:00 PM ET"
+              },
+              {
+                "days": "Sunday",
+                "daysShort": "Sunday",
+                "time": "Closed"
+              }
+            ]
+          }
+        }
+      },
+      "Header": {
+        "variants": {
+          "InsuranceHeader1": {
+            "ariaLabel": "Main navigation",
+            "links": [
+              {
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "label": "About Us",
+                "href": "/about"
+              },
+              {
+                "label": "Our Services",
+                "href": "/services",
+                "dropdown": false
+              },
+              {
+                "label": "Why Choose Us",
+                "href": "/why-choose-us"
+              },
+              {
+                "label": "Our Team",
+                "href": "/team"
+              }
+            ],
+            "button": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        }
+      },
+      "Hero": {
+        "variants": {
+          "InsuranceHero1": {
+            "previousLabel": "Previous slide",
+            "nextLabel": "Next slide",
+            "slides": [
+              {
+                "eyebrow": "Welcome To",
+                "title": [
+                  "Aurevia",
+                  "Restaurant"
+                ],
+                "text": "Experience a perfect blend of great food, warm ambience and exceptional hospitality.",
+                "image": "/images/hero-1.webp",
+                "imageAlt": "Aurevia restaurant dining"
+              },
+              {
+                "eyebrow": "Discover The Taste Of",
+                "title": [
+                  "Excellence",
+                  "Fine Dining"
+                ],
+                "text": "Delight in extraordinary flavours crafted with passion, freshness and creativity.",
+                "image": "/images/hero-2.webp",
+                "imageAlt": "Excellence restaurant dining"
+              },
+              {
+                "eyebrow": "A Celebration Of",
+                "title": [
+                  "Flavours",
+                  "At Aurevia"
+                ],
+                "text": "Where beautiful moments, delicious cuisine and unforgettable memories come together.",
+                "image": "/images/hero-3.webp",
+                "imageAlt": "Flavours restaurant dining"
+              }
+            ]
+          }
+        }
+      },
+      "Highlights": {
+        "variants": {
+          "InsuranceHighlights1": {
+            "items": [
+              {
+                "icon": "utensils",
+                "title": "Classic Pancakes",
+                "text": "Fluffy pancakes served with fresh berries and honey."
+              },
+              {
+                "icon": "utensils",
+                "title": "Cheese Omelette",
+                "text": "A fluffy omelette filled with melted cheese and fresh herbs."
+              },
+              {
+                "icon": "utensils",
+                "title": "Veg Sandwich",
+                "text": "Crispy toasted sandwich with fresh vegetables and house sauce."
+              },
+              {
+                "icon": "utensils",
+                "title": "Healthy Fruit",
+                "text": "A refreshing mix of seasonal fruits, yogurt and crunchy granola."
+              },
+              {
+                "icon": "utensils",
+                "title": "Poha",
+                "text": "Light and flavorful flattened rice cooked with fresh spices."
+              },
+              {
+                "icon": "utensils",
+                "title": "Idli Sambar",
+                "text": "Soft steamed idlis served with traditional sambar and chutney."
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "InsuranceAbout1": {
+            "heroTitle": "About Us",
+            "homeSection": {
+              "eyebrow": "About Us",
+              "title": [
+                "Your Trusted Partner for",
+                "Finance, Banking & Insurance",
+                ""
+              ]
+            },
+            "eyebrow": "About Us",
+            "title": "Your Trusted Partner for",
+            "highlight": "Finance, Banking & Insurance",
+            "mainImage": "/images/about-main.png",
+            "mainImageAlt": "FinSecure financial advisor consulting with clients",
+            "familyImage": "/images/about-team.png",
+            "familyImageAlt": "Professional financial advisor meeting clients",
+            "homeText": "We are a customer-focused financial services company, committed to delivering reliable banking, smart investment and comprehensive insurance solutions for individuals, families and businesses.",
+            "experience": {
+              "value": "10+",
+              "label": [
+                "Years of",
+                "Experience"
+              ]
+            },
+            "points": [
+              {
+                "icon": "shield-check",
+                "title": "Secure",
+                "text": "Financial Solutions"
+              },
+              {
+                "icon": "check-circle",
+                "title": "Transparent",
+                "text": "Financial Guidance"
+              },
+              {
+                "icon": "user-round",
+                "title": "Personalized",
+                "text": "Financial Strategies"
+              }
+            ],
+            "button": {
+              "label": "Explore Our Services",
+              "href": "/services"
+            },
+            "pageParagraphs": [
+              "We are a customer-focused financial services company, committed to delivering reliable banking, smart investment and comprehensive insurance solutions for individuals, families and businesses.",
+              "To provide secure, transparent and personalized financial solutions that help you achieve your life goals.",
+              "Comprehensive financial solutions to help you save, invest, borrow and stay protected — all under one trusted platform.",
+              "Whether you're looking for expert financial advice, strategic business consulting or long-term planning support, our team is here to help."
+            ],
+            "mission": {
+              "eyebrow": "Our Commitment",
+              "title": [
+                "Our",
+                "Commitment"
+              ],
+              "button": {
+                "label": "Get a Consultation",
+                "href": "/contact"
+              },
+              "image": "/images/about-consultation.png",
+              "imageAlt": "Financial consultant advising a client"
+            },
+            "values": {
+              "eyebrow": "Our Commitment",
+              "title": "Financial Security",
+              "text": "To provide secure, transparent and personalized financial solutions that help you achieve your life goals.",
+              "image": "/images/about-team.png",
+              "imageAlt": "Professional financial advisor meeting clients"
+            }
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "InsuranceWhyChooseUs1": {
+            "eyebrow": "Why Choose Us",
+            "title": "Where Financial Wisdom",
+            "titleLine2": "Meets",
+            "highlight": "Exceptional Results",
+            "text": "With years of industry experience, we have built a strong foundation of trust by delivering reliable financial solutions, strategic guidance and measurable results for our clients.",
+            "image": "/images/financial-advisor.png",
+            "imageAlt": "Financial analyst reviewing investment market performance",
+            "leavesImage": "/images/strength-leaves.webp",
+            "tomatoesImage": "/images/strength-tomatoes.webp",
+            "backgroundImage": "/images/strength-bg.webp",
+            "items": [
+              {
+                "icon": "concierge-bell",
+                "title": [
+                  "Hygienic",
+                  "Food"
+                ],
+                "text": [
+                  "Fresh, safe and",
+                  "hygienically prepared meals",
+                  "for your health."
+                ]
+              },
+              {
+                "icon": "armchair",
+                "title": [
+                  "Fresh",
+                  "Environment"
+                ],
+                "text": [
+                  "A clean, comfortable",
+                  "and welcoming",
+                  "dining atmosphere."
+                ]
+              },
+              {
+                "icon": "chef-hat",
+                "title": [
+                  "Skilled",
+                  "Chefs"
+                ],
+                "text": [
+                  "Experienced chefs who bring",
+                  "taste and creativity",
+                  "to every dish."
+                ]
+              },
+              {
+                "icon": "party-popper",
+                "title": [
+                  "Event &",
+                  "Party"
+                ],
+                "text": [
+                  "Perfect place for",
+                  "birthdays, family gatherings",
+                  "and special celebrations."
+                ]
+              }
+            ],
+            "homeItemCount": 4
+          }
+        }
+      },
+      "Plans": {
+        "variants": {
+          "InsurancePlans1": {
+            "heroTitle": "Our Delicious Menu",
+            "eyebrow": "Special Selection",
+            "title": "Our Delicious",
+            "highlight": "Menu",
+            "text": "Fertility care begins with understanding your individual needs. Our goal is to help you explore available treatments, understand the process, and make informed decisions together with your clinical team.",
+            "buttonLabel": "Discuss This Treatment",
+            "serviceDetailsHref": "#menu",
+            "learnMoreLabelTemplate": "Learn more about {name}",
+            "homeImage": "/images/menu-pancakes.webp",
+            "homeImageAlt": "Classic Pancakes",
+            "decorationImages": {
+              "leaves": "/images/menu-leaves.webp",
+              "decoration": "/images/menu-decoration.webp"
+            },
+            "homeServiceSlugs": [
+              "classic-pancakes",
+              "cheese-omelette",
+              "veg-sandwich",
+              "healthy-fruit-bowl",
+              "poha"
+            ],
+            "treatmentCardCount": 6,
+            "treatmentHeading": [
+              "Our Delicious",
+              "Menu"
+            ],
+            "items": [
+              {
+                "slug": "classic-pancakes",
+                "title": "Classic Pancakes",
+                "price": "₹299",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "Fluffy pancakes served with fresh berries and honey.",
+                "lines": [
+                  "Fluffy pancakes served with",
+                  "fresh berries and honey."
+                ],
+                "homeText": [
+                  "Fluffy pancakes served",
+                  "with fresh berries",
+                  "and honey."
+                ],
+                "image": "/images/menu-pancakes.webp",
+                "homeImage": "/images/menu-pancakes.webp",
+                "treatmentImageAlt": "Classic Pancakes",
+                "detailImage": "/images/menu-pancakes.webp",
+                "relatedText": [
+                  "Fluffy pancakes served with",
+                  "fresh berries and honey."
+                ],
+                "overview": [
+                  "Fluffy pancakes served with fresh berries and honey.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              },
+              {
+                "slug": "cheese-omelette",
+                "title": "Cheese Omelette",
+                "price": "₹249",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "A fluffy omelette filled with melted cheese and fresh herbs.",
+                "lines": [
+                  "A fluffy omelette filled with",
+                  "melted cheese and fresh herbs."
+                ],
+                "homeText": [
+                  "A fluffy omelette filled",
+                  "with melted cheese",
+                  "and fresh herbs."
+                ],
+                "image": "/images/menu-omelette.webp",
+                "homeImage": "/images/menu-omelette.webp",
+                "treatmentImageAlt": "Cheese Omelette",
+                "thumb": "/images/menu-omelette.webp",
+                "relatedText": [
+                  "A fluffy omelette filled with",
+                  "melted cheese and fresh herbs."
+                ],
+                "overview": [
+                  "A fluffy omelette filled with melted cheese and fresh herbs.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              },
+              {
+                "slug": "veg-sandwich",
+                "title": "Veg Sandwich",
+                "price": "₹199",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "Crispy toasted sandwich with fresh vegetables and house sauce.",
+                "lines": [
+                  "Crispy toasted sandwich",
+                  "with fresh vegetables",
+                  "and house sauce."
+                ],
+                "homeText": [
+                  "Crispy toasted sandwich",
+                  "with fresh vegetables",
+                  "and house sauce."
+                ],
+                "image": "/images/menu-sandwich.webp",
+                "homeImage": "/images/menu-sandwich.webp",
+                "homeImageAlt": "Veg Sandwich",
+                "thumb": "/images/menu-sandwich.webp",
+                "relatedText": [
+                  "Crispy toasted sandwich with fresh",
+                  "vegetables and house sauce."
+                ],
+                "overview": [
+                  "Crispy toasted sandwich with fresh vegetables and house sauce.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              },
+              {
+                "slug": "healthy-fruit-bowl",
+                "title": "Healthy Fruit",
+                "price": "₹279",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "A refreshing mix of seasonal fruits, yogurt and crunchy granola.",
+                "lines": [
+                  "A refreshing mix of",
+                  "seasonal fruits, yogurt",
+                  "and crunchy granola."
+                ],
+                "homeText": [
+                  "A refreshing mix of",
+                  "seasonal fruits, yogurt",
+                  "and crunchy granola."
+                ],
+                "image": "/images/menu-fruit-bowl.webp",
+                "homeImage": "/images/menu-fruit-bowl.webp",
+                "homeImageAlt": "Healthy Fruit Bowl",
+                "thumb": "/images/menu-fruit-bowl.webp",
+                "relatedText": [
+                  "A refreshing mix of seasonal",
+                  "fruits, yogurt and crunchy granola."
+                ],
+                "overview": [
+                  "A refreshing mix of seasonal fruits, yogurt and crunchy granola.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              },
+              {
+                "slug": "poha",
+                "title": "Poha",
+                "price": "₹229",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "Light and flavorful flattened rice cooked with fresh spices.",
+                "lines": [
+                  "Light and flavorful",
+                  "flattened rice cooked",
+                  "with fresh spices."
+                ],
+                "homeText": [
+                  "Light and flavorful",
+                  "flattened rice cooked",
+                  "with fresh spices."
+                ],
+                "image": "/images/menu-poha.webp",
+                "homeImage": "/images/menu-poha.webp",
+                "homeImageAlt": "Poha",
+                "thumb": "/images/menu-poha.webp",
+                "relatedText": [
+                  "Light and flavorful flattened rice",
+                  "cooked with fresh spices."
+                ],
+                "overview": [
+                  "Light and flavorful flattened rice cooked with fresh spices.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              },
+              {
+                "slug": "idli-sambar",
+                "title": "Idli Sambar",
+                "price": "₹199",
+                "icon": "utensils",
+                "homeIcon": "utensils",
+                "text": "Soft steamed idlis served with traditional sambar and chutney.",
+                "lines": [
+                  "Soft steamed idlis",
+                  "served with traditional",
+                  "sambar and chutney."
+                ],
+                "homeText": [
+                  "Soft steamed idlis",
+                  "served with traditional",
+                  "sambar and chutney."
+                ],
+                "image": "/images/menu-idli.webp",
+                "homeImage": "/images/menu-idli.webp",
+                "homeImageAlt": "Idli Sambar",
+                "relatedText": [
+                  "Soft steamed idlis served with",
+                  "traditional sambar and chutney."
+                ],
+                "overview": [
+                  "Soft steamed idlis served with traditional sambar and chutney.",
+                  "At Aurevia, we believe dining is more than just a meal — it’s an experience. We bring together the finest ingredients, expert recipes, and a warm ambience to create unforgettable moments for every guest."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "PlanDetail": {
+        "variants": {
+          "InsurancePlanDetail1": {
+            "bannerTitle": "Service Details",
+            "overviewEyebrow": "Understanding Your Options",
+            "overviewTitle": "Every Journey Is Different",
+            "featuresEyebrow": "Our Treatment Options",
+            "featuresTitle": "Learn About",
+            "featuresSuffix": "Fertility Treatments",
+            "overviewText": "Fertility care begins with understanding your individual needs. Our goal is to help you explore available treatments, understand the process, and make informed decisions together with your clinical team.",
+            "introCards": [
+              {
+                "icon": "heart",
+                "title": "Compassion",
+                "text": "Support that respects your feelings and circumstances."
+              },
+              {
+                "icon": "microscope",
+                "title": "Clinical Guidance",
+                "text": "Understand investigations and treatment options."
+              },
+              {
+                "icon": "shield-check",
+                "title": "Informed Choices",
+                "text": "Discuss benefits, limitations, risks, and costs."
+              }
+            ],
+            "treatmentSectionTitle": "Find the Care That Fits You",
+            "treatmentSectionText": "Learn about two commonly used fertility treatments and discuss their suitability with your fertility specialist.",
+            "treatments": [
+              {
+                "slug": "ivf-treatment",
+                "number": "01",
+                "eyebrow": "Advanced Fertility Care",
+                "subtitle": "A carefully guided journey toward parenthood.",
+                "description": "In vitro fertilization (IVF) is a fertility treatment in which eggs and sperm are combined in a laboratory. An embryo may then be transferred into the uterus by a qualified fertility specialist.",
+                "image": "/images/home/why-choose.webp",
+                "imageAlt": "A patient discussing ultrasound results with a healthcare professional",
+                "features": [
+                  "Individualized treatment planning",
+                  "Specialist-led monitoring",
+                  "Laboratory-based fertilization",
+                  "Guidance throughout the process"
+                ],
+                "process": [
+                  {
+                    "title": "Initial consultation",
+                    "description": "Your specialist reviews your medical history and discusses suitable investigations."
+                  },
+                  {
+                    "title": "Treatment planning",
+                    "description": "A personalized plan is developed according to your circumstances and clinical findings."
+                  },
+                  {
+                    "title": "Fertilization",
+                    "description": "Eggs and sperm are brought together in a laboratory, with fertilization monitored by the clinical team."
+                  },
+                  {
+                    "title": "Embryo transfer",
+                    "description": "When appropriate, an embryo may be transferred into the uterus, followed by clinical guidance and testing."
+                  }
+                ]
+              },
+              {
+                "slug": "iui-treatment",
+                "number": "02",
+                "eyebrow": "Personalized Fertility Care",
+                "subtitle": "A less invasive option for selected fertility needs.",
+                "description": "Intrauterine insemination (IUI) involves placing prepared sperm directly into the uterus around the time of ovulation. A fertility specialist can help determine whether this approach is suitable for you.",
+                "image": "/images/about/our-mission.webp",
+                "imageAlt": "Fertility laboratory equipment used in reproductive care",
+                "features": [
+                  "Treatment suitability assessment",
+                  "Ovulation timing and monitoring",
+                  "Prepared sperm placed in the uterus",
+                  "Follow-up guidance from your specialist"
+                ],
+                "process": [
+                  {
+                    "title": "Consultation",
+                    "description": "Your specialist reviews your health history and discusses fertility investigations."
+                  },
+                  {
+                    "title": "Ovulation monitoring",
+                    "description": "The clinical team identifies the appropriate timing for the procedure."
+                  },
+                  {
+                    "title": "Sperm preparation",
+                    "description": "A laboratory prepares a sperm sample for the insemination procedure."
+                  },
+                  {
+                    "title": "Insemination and follow-up",
+                    "description": "Prepared sperm is placed in the uterus, followed by instructions about testing and follow-up."
+                  }
+                ]
+              }
+            ],
+            "processSectionEyebrow": "What to Expect",
+            "processSectionTitle": "Your Treatment Journey",
+            "processSectionText": "Each treatment follows its own clinical process. Your specialist will explain the steps and timing that apply to your plan.",
+            "treatmentPrefix": "Treatment",
+            "contactHref": "/contact",
+            "supportTitle": "Take the Next Step With Confidence",
+            "supportButton": {
+              "label": "Book an Appointment",
+              "href": "/book-appointment"
+            },
+            "features": [
+              {
+                "icon": "check-circle",
+                "title": "Individualized treatment planning",
+                "text": [
+                  "Individualized treatment",
+                  "planning"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Specialist-led monitoring",
+                "text": [
+                  "Specialist-led",
+                  "monitoring"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Laboratory-based fertilization",
+                "text": [
+                  "Laboratory-based",
+                  "fertilization"
+                ]
+              },
+              {
+                "icon": "check-circle",
+                "title": "Guidance throughout the process",
+                "text": [
+                  "Guidance throughout",
+                  "the process"
+                ]
+              }
+            ],
+            "whyEyebrow": "What to Expect",
+            "whyTitle": "Your Treatment",
+            "whySuffix": "Journey",
+            "why": [
+              {
+                "icon": "stethoscope",
+                "title": "Consultation",
+                "text": "Your specialist reviews your health history and discusses fertility investigations."
+              },
+              {
+                "icon": "clock",
+                "title": "Ovulation monitoring",
+                "text": "The clinical team identifies the appropriate timing for the procedure."
+              },
+              {
+                "icon": "microscope",
+                "title": "Sperm preparation",
+                "text": "A laboratory prepares a sperm sample for the insemination procedure."
+              },
+              {
+                "icon": "check-circle",
+                "title": "Insemination and follow-up",
+                "text": "Prepared sperm is placed in the uterus, followed by instructions about testing and follow-up."
+              }
+            ],
+            "formTitle": "Discuss This Treatment",
+            "formText": "Have questions about IVF or IUI? Arrange a consultation to discuss your needs, options, potential risks, and next steps.",
+            "relatedTitle": "Our Treatment Options"
+          }
+        }
+      },
+      "Process": {
+        "variants": {
+          "InsuranceProcess1": {
+            "eyebrow": "What to Expect",
+            "title": "Your Treatment",
+            "highlight": "Journey",
+            "text": "Each treatment follows its own clinical process. Your specialist will explain the steps and timing that apply to your plan.",
+            "button": {
+              "label": "Book an Appointment",
+              "href": "/book-appointment"
+            },
+            "steps": [
+              {
+                "icon": "stethoscope",
+                "title": "Initial consultation",
+                "text": [
+                  "Your specialist reviews",
+                  "your medical history and",
+                  "discusses suitable",
+                  "investigations."
+                ]
+              },
+              {
+                "icon": "calendar-check",
+                "title": "Treatment planning",
+                "text": [
+                  "A personalized plan is",
+                  "developed according to your",
+                  "circumstances and clinical findings."
+                ]
+              },
+              {
+                "icon": "microscope",
+                "title": "Fertilization",
+                "text": [
+                  "Eggs and sperm are brought",
+                  "together in a laboratory, with",
+                  "fertilization monitored by the",
+                  "clinical team."
+                ]
+              },
+              {
+                "icon": "baby",
+                "title": "Embryo transfer",
+                "text": [
+                  "When appropriate, an embryo",
+                  "may be transferred into the",
+                  "uterus, followed by clinical",
+                  "guidance and testing."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Stats": {
+        "variants": {
+          "InsuranceStats1": {
+            "backgroundImage": "/images/financial-advisor.png",
+            "backgroundAlt": "Financial analyst reviewing investment market performance",
+            "items": [
+              {
+                "icon": "award",
+                "value": "10+",
+                "label": "YEARS OF EXPERIENCE"
+              },
+              {
+                "icon": "circle-check",
+                "value": "4",
+                "label": "FINANCIAL SERVICES"
+              },
+              {
+                "icon": "landmark",
+                "value": "6",
+                "label": "BANKING PARTNERS"
+              },
+              {
+                "icon": "users",
+                "value": "3",
+                "label": "TEAM MEMBERS"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "InsuranceTestimonials1": {
+            "heroTitle": "Testimonials",
+            "ariaLabel": "Client testimonials",
+            "eyebrow": "Client Testimonials",
+            "title": "What Our Clients",
+            "highlight": "Say",
+            "storyLabel": "A personal story",
+            "ratingLabel": "Five-star client rating",
+            "previousLabel": "Previous testimonial",
+            "nextLabel": "Next testimonial",
+            "showLabelTemplate": "Show testimonial {number}",
+            "text": "Real experiences from our valued clients who trust us for their financial growth.",
+            "images": {
+              "herbs": "/images/testimonial-herbs.webp",
+              "food": "/images/testimonial-food.webp",
+              "pasta": "/images/testimonial-pasta.webp"
+            },
+            "items": [
+              {
+                "name": "James Anderson",
+                "city": "",
+                "treatment": "Business Owner",
+                "rating": 5,
+                "image": "/images/team-1.png",
+                "imageAlt": "James Anderson",
+                "quote": "FinSecure helped me create a solid financial plan for my business. Their team is knowledgeable, professional and always supportive."
+              },
+              {
+                "name": "Sophia Martinez",
+                "city": "",
+                "treatment": "Investment Advisor",
+                "rating": 5,
+                "image": "/images/team-2.png",
+                "imageAlt": "Sophia Martinez",
+                "quote": "A truly reliable financial partner! They guided me with the right investment strategies and helped me achieve my long-term goals."
+              },
+              {
+                "name": "Robert Wilson",
+                "city": "",
+                "treatment": "Corporate Director",
+                "rating": 5,
+                "image": "/images/team-3.png",
+                "imageAlt": "Robert Wilson",
+                "quote": "Excellent service and customized financial solutions. The team takes time to understand your needs and delivers real, measurable results."
+              }
+            ]
+          }
+        }
+      },
+      "Cta": {
+        "variants": {
+          "InsuranceCta1": {
+            "eyebrow": "Get In Touch",
+            "title": [
+              "Ready to Grow",
+              "Your Financial Future? Let's Talk."
+            ],
+            "text": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth.",
+            "image": "/images/contact-bg.png",
+            "button": {
+              "label": "Contact Us",
+              "href": "/contact"
+            }
+          }
+        }
+      },
+      "Blog": {
+        "variants": {
+          "InsuranceBlog1": {
+            "heroTitle": "Blog",
+            "readLabel": "Read Article",
+            "readAriaLabelTemplate": "Read {title}",
+            "eyebrow": "Fertility Insights",
+            "title": "Latest updates and",
+            "highlight": "expert fertility insights",
+            "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+            "buttonLabel": "Explore All Articles",
+            "homeCount": 3,
+            "categoryLabel": "Showing posts in",
+            "allPostsLabel": "View all posts",
+            "posts": [
+              {
+                "slug": "lifestyle-choices-and-conception",
+                "category": "Fertility Insights",
+                "date": "Oct 16, 2026",
+                "title": "How lifestyle choices can improve your chances of conception",
+                "titleLines": [
+                  "How lifestyle choices can improve",
+                  "your chances of conception"
+                ],
+                "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+                "image": "/images/home/success-story1.webp",
+                "imageAlt": "Mother holding her baby in a bright, peaceful setting",
+                "detail": {
+                  "image": "/images/home/success-story1.webp",
+                  "imageAlt": "A mother holding her baby, representing family and reproductive health",
+                  "comments": 3,
+                  "intro": "Fertility is a personal aspect of health, and every individual or couple may have different questions, circumstances, and goals. Understanding your options can help you have informed conversations with a qualified healthcare professional.",
+                  "sections": [
+                    {
+                      "title": "Lifestyle and",
+                      "highlight": "reproductive health",
+                      "text": "General health habits can support overall well-being. Eating a varied, balanced diet, getting adequate rest, avoiding tobacco, and discussing medications or supplements with a clinician can all be useful topics to consider."
+                    },
+                    {
+                      "title": "Understanding",
+                      "highlight": "treatment options",
+                      "text": "Depending on your circumstances, a specialist may discuss diagnostic testing, medication, intrauterine insemination (IUI), in vitro fertilization (IVF), or other approaches. Not every option is appropriate for every person."
+                    },
+                    {
+                      "title": "Questions to ask",
+                      "highlight": "your specialist",
+                      "text": "Preparing questions before an appointment can help you understand the available choices and feel more comfortable participating in decisions about your care."
+                    }
+                  ],
+                  "tip": {
+                    "title": "A Guide to Getting Started",
+                    "text": "The right next step begins with reliable information and care tailored to your needs."
+                  }
+                }
+              },
+              {
+                "slug": "ivf-treatment-journey",
+                "category": "IVF Guides",
+                "date": "Oct 16, 2026",
+                "title": "What to expect during your IVF treatment journey",
+                "titleLines": [
+                  "What to expect during your",
+                  "IVF treatment journey"
+                ],
+                "text": "Explore the essentials of reproductive health, learn about your options, and discover how informed decisions can help you navigate your fertility journey.",
+                "image": "/images/home/success-story2.webp",
+                "imageAlt": "Patient looking at an ultrasound image with medical guidance",
+                "detail": {
+                  "image": "/images/blog-2.webp",
+                  "imageAlt": "Doctor talking with a patient at a desk",
+                  "comments": 5,
+                  "intro": "A medical emergency rarely gives notice, and the cost of treatment can strain even careful savings. Health insurance lets you focus on recovery rather than on how the bills will be paid.",
+                  "sections": [
+                    {
+                      "title": "1. Manage Rising",
+                      "highlight": "Medical Costs",
+                      "text": "Hospital stays, surgeries, and diagnostic tests become more expensive every year. A health plan covers a large share of these costs so that one illness does not undo years of saving."
+                    },
+                    {
+                      "title": "2. Get Care",
+                      "highlight": "Without Delay",
+                      "text": "Many plans offer cashless treatment at network hospitals, which means you can be admitted and treated without arranging a large payment first. Check the hospital list near your home before you buy."
+                    },
+                    {
+                      "title": "3. Cover the",
+                      "highlight": "Whole Family",
+                      "text": "A family floater plan protects your spouse, children, and sometimes parents under a single sum insured. Review the waiting periods and exclusions so you know exactly what is covered and from when."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Read the Waiting Periods",
+                    "text": "Most policies apply a waiting period to pre-existing conditions and certain treatments. Knowing these before you buy helps you avoid surprises at claim time."
+                  }
+                }
+              },
+              {
+                "slug": "pcos-and-fertility",
+                "category": "Women's Health",
+                "date": "Oct 16, 2026",
+                "title": "Understanding PCOS and its impact on fertility",
+                "titleLines": [
+                  "Understanding PCOS and",
+                  "its impact on fertility"
+                ],
+                "text": "Understanding PCOS and its impact on fertility",
+                "image": "/images/home/success-story3.webp",
+                "imageAlt": "Doctor discussing women's health with a patient",
+                "detail": {
+                  "image": "/images/blog-3.webp",
+                  "imageAlt": "Travellers watching a plane from an airport terminal",
+                  "comments": 2,
+                  "intro": "A trip takes weeks of planning, but a missed flight, a lost bag, or a sudden illness abroad can change it in minutes. Travel insurance is a small addition to your budget that keeps those setbacks from becoming expensive problems.",
+                  "sections": [
+                    {
+                      "title": "1. Medical Help",
+                      "highlight": "Away from Home",
+                      "text": "Treatment in another country can be costly and hard to arrange. Travel cover pays for emergency medical care and, where needed, evacuation, so you are not left negotiating bills in an unfamiliar place."
+                    },
+                    {
+                      "title": "2. Delays and",
+                      "highlight": "Cancellations",
+                      "text": "If your trip is cancelled or cut short for a covered reason, the policy can reimburse non-refundable bookings. Many plans also compensate for long flight delays and missed connections."
+                    },
+                    {
+                      "title": "3. Lost Baggage and",
+                      "highlight": "Documents",
+                      "text": "Losing your luggage or passport is stressful enough without the cost of replacing them. Cover for baggage and travel documents helps you get essentials quickly and continue your journey."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Buy When You Book",
+                    "text": "Purchasing cover at the time you book your trip means cancellation benefits apply from day one, not just from the day you depart."
+                  }
+                }
+              },
+              {
+                "slug": "home-insurance-protect-what-matters-most",
+                "category": "Home Insurance",
+                "date": "2026-08-08",
+                "title": "Home Insurance: Protect What Matters Most",
+                "titleLines": [
+                  "Home Insurance: Protect",
+                  "What Matters Most"
+                ],
+                "text": "See how home insurance shields your house and belongings from fire, theft, and natural calamities.",
+                "image": "/images/blog-4.webp",
+                "detail": {
+                  "image": "/images/blog-4.webp",
+                  "imageAlt": "Modern family home at dusk",
+                  "comments": 4,
+                  "intro": "Your home is likely the most valuable thing you own, and everything inside it took years to build up. Home insurance protects both the structure and your belongings against events you cannot control.",
+                  "sections": [
+                    {
+                      "title": "1. Cover the",
+                      "highlight": "Structure",
+                      "text": "Fire, storms, floods, and other calamities can cause damage that is expensive to repair. Structure cover pays towards rebuilding or restoring your home so you are not starting again from nothing."
+                    },
+                    {
+                      "title": "2. Protect Your",
+                      "highlight": "Belongings",
+                      "text": "Furniture, appliances, electronics, and valuables can be insured against theft and damage. Keep a simple list of what you own and its approximate value to make any claim faster."
+                    },
+                    {
+                      "title": "3. Choose the Right",
+                      "highlight": "Sum Insured",
+                      "text": "Insure the structure for what it would cost to rebuild, not its market price, and review the amount whenever you renovate. Being under-insured can reduce what you receive at claim time."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Renters Need Cover Too",
+                    "text": "If you rent, you can still insure your belongings. Contents-only cover is usually inexpensive and protects everything you have brought into the home."
+                  }
+                }
+              },
+              {
+                "slug": "motor-insurance-drive-with-complete-confidence",
+                "category": "Motor Insurance",
+                "date": "2026-08-05",
+                "title": "Motor Insurance: Drive with Complete Confidence",
+                "titleLines": [
+                  "Motor Insurance: Drive",
+                  "with Complete Confidence"
+                ],
+                "text": "Understand third-party and comprehensive cover, and how the right add-ons keep you protected on every journey.",
+                "image": "/images/blog-5.webp",
+                "detail": {
+                  "image": "/images/blog-5.webp",
+                  "imageAlt": "Car driving along a winding road at sunset",
+                  "comments": 6,
+                  "intro": "Every drive carries some risk, however careful you are. Motor insurance protects you from the cost of accidents, theft, and damage, and keeps you on the right side of the law.",
+                  "sections": [
+                    {
+                      "title": "1. Third-Party or",
+                      "highlight": "Comprehensive",
+                      "text": "Third-party cover pays for injury or damage you cause to others and is the legal minimum in many places. Comprehensive cover adds protection for your own vehicle against accidents, theft, fire, and natural events."
+                    },
+                    {
+                      "title": "2. Add-Ons That",
+                      "highlight": "Matter",
+                      "text": "Zero depreciation, roadside assistance, and engine protection can make a real difference when you claim. Choose add-ons based on your car’s age, where you drive, and how much you would want to pay out of pocket."
+                    },
+                    {
+                      "title": "3. Keep Your",
+                      "highlight": "No-Claim Bonus",
+                      "text": "Each claim-free year usually earns a discount on your next premium. Renew on time and think twice before claiming for very small repairs, so the bonus keeps building."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Renew Before Expiry",
+                    "text": "A lapsed policy can mean losing your no-claim bonus and driving uninsured. Set a reminder a few weeks before your renewal date."
+                  }
+                }
+              },
+              {
+                "slug": "business-insurance-safeguard-what-you-have-built",
+                "category": "Business Insurance",
+                "date": "2026-08-02",
+                "title": "Business Insurance: Safeguard What You’ve Built",
+                "titleLines": [
+                  "Business Insurance: Safeguard",
+                  "What You’ve Built"
+                ],
+                "text": "Learn how the right cover protects your assets, your people, and your income when something goes wrong.",
+                "image": "/images/blog-6.webp",
+                "detail": {
+                  "image": "/images/blog-6.webp",
+                  "imageAlt": "Business owner meeting with an insurance advisor",
+                  "comments": 7,
+                  "intro": "A business takes years to build and can be set back by a single unexpected event. Business insurance helps you absorb the shock and keep trading while you recover.",
+                  "sections": [
+                    {
+                      "title": "1. Protect Your",
+                      "highlight": "Assets",
+                      "text": "Premises, equipment, and stock are the foundation of your operations. Property cover helps you repair or replace them after fire, theft, or damage so work can resume sooner."
+                    },
+                    {
+                      "title": "2. Cover Your",
+                      "highlight": "Liabilities",
+                      "text": "A customer injury, a faulty product, or a professional error can lead to claims against you. Liability cover pays for legal costs and compensation that could otherwise threaten the business."
+                    },
+                    {
+                      "title": "3. Keep Income",
+                      "highlight": "Flowing",
+                      "text": "If you have to close temporarily, business interruption cover can replace lost income and help with fixed costs such as rent and salaries until you are back on your feet."
+                    }
+                  ],
+                  "tip": {
+                    "title": "Tip: Review Cover as You Grow",
+                    "text": "New staff, new premises, or new services all change your risks. Revisit your policy every year so your cover grows with the business."
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "BlogDetail": {
+        "variants": {
+          "InsuranceBlogDetail1": {
+            "bannerTitle": "Blog Details",
+            "author": "By Admin",
+            "commentsLabel": "Comments",
+            "latestTitle": "Latest updates",
+            "categoriesTitle": "Fertility Insights"
+          }
+        }
+      },
+      "EnquiryForm": {
+        "variants": {
+          "InsuranceEnquiryForm1": {
+            "name": "First Name *",
+            "email": "Email Address *",
+            "phone": "Phone Number *",
+            "plan": "Consultation Type *",
+            "planShort": "Select a consultation",
+            "message": "Additional Notes (Optional)",
+            "submit": "Request Appointment",
+            "note": "Your information should be handled securely and confidentially by the connected booking system."
+          }
+        }
+      },
+      "EnquirePage": {
+        "variants": {
+          "InsuranceEnquirePage1": {
+            "eyebrow": "Schedule a Visit",
+            "title": [
+              "Book Your",
+              "Appointment"
+            ],
+            "highlight": "With Care.",
+            "text": "Every journey is personal. Take the first step toward understanding your fertility and reproductive health with compassionate, professional guidance.",
+            "points": [
+              {
+                "icon": "heart",
+                "title": "Personal Care",
+                "text": [
+                  "Guidance tailored to your needs."
+                ]
+              },
+              {
+                "icon": "shield-check",
+                "title": "Trusted Support",
+                "text": [
+                  "Professional, respectful care."
+                ]
+              },
+              {
+                "icon": "calendar",
+                "title": "Schedule a Visit",
+                "text": [
+                  "Complete the form to request your visit."
+                ]
+              }
+            ],
+            "formTitle": "Let's Get",
+            "formHighlight": "Started",
+            "formText": "Complete the form to request your visit."
+          }
+        }
+      },
+      "ContactPage": {
+        "variants": {
+          "InsuranceContactPage1": {
+            "eyebrow": "Contact Us",
+            "title": [
+              "Let's Start the",
+              "Conversation"
+            ],
+            "highlight": "Conversation",
+            "text": "Whether you're looking for expert financial advice, strategic business consulting or long-term planning support, our team is here to help.",
+            "cards": [
+              {
+                "icon": "Phone",
+                "symbol": "☎",
+                "title": "Call Us",
+                "href": "tel:+15551234567",
+                "field": "phones"
+              },
+              {
+                "icon": "Mail",
+                "symbol": "✉",
+                "title": "Email Us",
+                "href": "mailto:info@finsecure.com",
+                "field": "emails"
+              },
+              {
+                "icon": "MapPin",
+                "symbol": "◎",
+                "title": "Our Location",
+                "href": "https://maps.google.com/?q=New+York",
+                "field": "address"
+              }
+            ],
+            "formTitle": "Let's Start the",
+            "formHighlight": "Conversation",
+            "formText": "Whether you're looking for expert financial advice, strategic business consulting or long-term planning support, our team is here to help.",
+            "location": {
+              "mapCard": {
+                "title": "Our Location",
+                "field": "address"
+              }
+            },
+            "hero": {
+              "breadcrumbLabel": "Breadcrumb",
+              "image": {
+                "src": "/images/contact-bg.png",
+                "alt": "Financial consultant advising a client"
+              },
+              "heading": "Contact Us",
+              "homeLabel": "Home",
+              "homeHref": "/",
+              "currentLabel": "Contact Us"
+            },
+            "form": {
+              "heading": "Contact Us",
+              "mobileEyebrow": "Contact Us",
+              "requiredMarker": "*",
+              "emailLabel": "Email Us",
+              "emailValue": "info@finsecure.com",
+              "phoneLabel": "Call Us",
+              "phoneValue": "+1 (555) 123-4567",
+              "backgroundImage": "/images/contact-bg.png",
+              "backgroundImageAlt": "",
+              "fields": {
+                "firstName": {
+                  "label": "First Name *",
+                  "placeholder": "First Name *",
+                  "symbol": "User"
+                },
+                "lastName": {
+                  "label": "Last Name *",
+                  "placeholder": "Last Name *"
+                },
+                "email": {
+                  "label": "Email Address *",
+                  "placeholder": "Email Address *",
+                  "symbol": "Mail"
+                },
+                "phone": {
+                  "label": "Phone Number *",
+                  "placeholder": "Phone Number *",
+                  "countryButtonLabel": "Choose country calling code",
+                  "symbol": "Phone"
+                },
+                "message": {
+                  "label": "Your Message...",
+                  "placeholder": "Your Message...",
+                  "symbol": "Mail"
+                }
+              },
+              "countries": [
+                {
+                  "code": "+91",
+                  "name": "India"
+                },
+                {
+                  "code": "+1",
+                  "name": "United States"
+                },
+                {
+                  "code": "+44",
+                  "name": "United Kingdom"
+                },
+                {
+                  "code": "+61",
+                  "name": "Australia"
+                },
+                {
+                  "code": "+971",
+                  "name": "UAE"
+                }
+              ],
+              "submitLabel": "Get Free Consultation",
+              "successTitle": "Thank you!",
+              "successText": [
+                "Your form passed the client-side submission step.",
+                "Connect an email service or backend API to deliver your message to your team."
+              ],
+              "successButton": "Send Another Message"
+            }
+          }
+        }
+      },
+      "ThankYouPage": {
+        "variants": {
+          "InsuranceThankYouPage1": {
+            "pageTitle": "Thank You",
+            "title": "Thank",
+            "highlight": "You!",
+            "subtitle": "Thank you!",
+            "text": [
+              "Your form passed the client-side submission step.",
+              "Connect an email service or backend API to deliver your message to your team."
+            ],
+            "primaryButton": {
+              "label": "Send Another Message",
+              "href": "/contact"
+            },
+            "secondaryButton": {
+              "label": "Book Another Appointment",
+              "href": "/book-appointment"
+            },
+            "points": [
+              {
+                "icon": "heart",
+                "title": "Personal Care",
+                "text": [
+                  "Guidance tailored to your needs."
+                ]
+              },
+              {
+                "icon": "shield-check",
+                "title": "Trusted Support",
+                "text": [
+                  "Professional, respectful care."
+                ]
+              },
+              {
+                "icon": "monitor-check",
+                "title": "Advanced Technology",
+                "text": [
+                  "For better care."
+                ]
+              },
+              {
+                "icon": "users-round",
+                "title": "Personalized Approach",
+                "text": [
+                  "Because you are unique."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "FaqPage": {
+        "variants": {
+          "InsuranceFaqPage1": {
+            "title": "Frequently Asked Questions",
+            "intro": "Find quick answers to common questions about our financial and consulting services.",
+            "items": [
+              {
+                "question": "What services do you offer?",
+                "answer": "We provide a range of financial and consulting services including business strategy, financial planning, investment advisory, risk management, and operational consulting to help businesses grow and succeed."
+              },
+              {
+                "question": "Who can benefit from your consulting services?",
+                "answer": "Our consulting services are designed for individuals, startups, small businesses, growing companies, and established organizations looking for reliable financial guidance and sustainable growth."
+              },
+              {
+                "question": "How do you create a financial strategy for clients?",
+                "answer": "We begin by understanding your financial goals, current situation, and business requirements. Our experts then develop a personalized strategy with practical recommendations and measurable objectives."
+              },
+              {
+                "question": "Do you offer personalized financial advice?",
+                "answer": "Yes. We provide personalized financial guidance based on your individual needs, financial objectives, investment preferences, and long-term plans."
+              }
+            ]
+          }
+        }
+      },
+      "PolicyPages": {
+        "variants": {
+          "InsurancePolicyPages1": {
+            "contactPrompt": "Questions? Contact us at",
+            "privacy": {
+              "intro": "Your trust matters to us. This policy explains how Surevia handles information you choose to share when you visit our website or contact our team.",
+              "sections": [
+                {
+                  "title": "Information you share",
+                  "text": "When you submit an enquiry or contact us, we may receive details such as your name, phone number, email address, and the insurance information you include in your message. Please avoid sending sensitive personal or financial information through general website forms."
+                },
+                {
+                  "title": "How we use information",
+                  "text": "We use enquiry details to respond to you, understand the cover you are asking about, and provide relevant guidance. If you ask us to help you explore a plan, we may use the details you provide to coordinate that request with the relevant insurance provider."
+                },
+                {
+                  "title": "Sharing and protection",
+                  "text": "We do not offer personal information for sale. Information may be shared with a relevant insurer or service provider when needed to respond to a request you make, or where disclosure is required by law. We take reasonable care in handling enquiry information, but no method of transmission or storage can be guaranteed completely secure."
+                },
+                {
+                  "title": "Your choices",
+                  "text": "You can choose not to provide information, though we may then be unable to respond to an enquiry. To ask about information you have sent us or request an update, email {email}."
+                },
+                {
+                  "title": "Insurance information",
+                  "text": "Website content is general information, not a substitute for an insurer’s policy wording or a personalized financial recommendation. The insurer’s documents and terms govern any cover you purchase."
+                }
+              ]
+            },
+            "terms": {
+              "intro": "These terms apply when you access the Surevia website. By using the site, you agree to use it lawfully and in a way that does not interfere with other visitors.",
+              "sections": [
+                {
+                  "title": "Website information",
+                  "text": "We aim to keep website information useful and current, but plan descriptions and other content are provided for general information and may change. They are not an offer of insurance, a guarantee of eligibility, or personal financial advice."
+                },
+                {
+                  "title": "Insurance applications and cover",
+                  "text": "Insurance products are subject to the insurer’s eligibility rules, underwriting, policy wording, exclusions, limits, and final approval. Always review the insurer’s official documents before applying or making a decision. A request sent through this website does not itself create insurance cover."
+                },
+                {
+                  "title": "Acceptable use",
+                  "text": "You must not misuse this website, attempt to gain unauthorized access, disrupt its operation, or submit information that is unlawful or belongs to another person without permission."
+                },
+                {
+                  "title": "Content and external websites",
+                  "text": "Website text, branding, and materials belong to Surevia or their respective owners. Links to other websites are provided for convenience; we do not control and are not responsible for their content or practices."
+                },
+                {
+                  "title": "Changes and contact",
+                  "text": "We may update these terms or website content as our services change. Continued use of the site after an update means you accept the revised terms. For questions, contact {email}."
+                }
+              ]
+            },
+            "cookies": {
+              "intro": "Cookies are small files that a website can store in your browser. This page describes how cookies may support your visit to the Surevia website and how you can manage them.",
+              "sections": [
+                {
+                  "title": "Why cookies may be used",
+                  "text": "Cookies and similar browser storage can help a website work reliably, remember a preference, understand how pages are used, or support embedded services. The specific cookies in use can vary as the website and its features change."
+                },
+                {
+                  "title": "Managing cookies",
+                  "text": "Most browsers let you review, block, or delete cookies in their privacy or site settings. Blocking some cookies may affect how parts of a website work. Changes made in your browser apply to that browser and device."
+                },
+                {
+                  "title": "Third-party services",
+                  "text": "If pages include content or tools provided by another company, that provider may use its own cookies under its own policy. Review the provider’s information for details about its practices."
+                },
+                {
+                  "title": "Updates",
+                  "text": "We may revise this page when website features or cookie practices change. Questions about this policy can be sent to {email}."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "SitemapPage": {
+        "variants": {
+          "InsuranceSitemapPage1": {
+            "pagesTitle": "Pages",
+            "policiesTitle": "Policies"
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "InsuranceFooter1": {
+            "ariaLabel": "Website footer",
+            "policyAriaLabel": "Footer navigation",
+            "about": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth.",
+            "columns": [
+              {
+                "title": "Quick Links",
+                "source": "links",
+                "links": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "/about"
+                  },
+                  {
+                    "label": "Our Services",
+                    "href": "/services"
+                  },
+                  {
+                    "label": "Why Choose Us",
+                    "href": "/#why-choose-us"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "href": "/contact"
+                  }
+                ]
+              },
+              {
+                "title": "Our Team",
+                "source": "plans",
+                "links": [
+                  {
+                    "label": "Our Team",
+                    "href": "/team"
+                  },
+                  {
+                    "label": "Testimonials",
+                    "href": "/testimonials"
+                  },
+                  {
+                    "label": "FAQs",
+                    "href": "/faqs"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "href": "/contact"
+                  },
+                  {
+                    "label": "Our Services",
+                    "href": "/services"
+                  }
+                ]
+              }
+            ],
+            "contactTitle": "Get In Touch",
+            "contactDetails": [
+              {
+                "title": "Call Us",
+                "value": "+1 (555) 123-4567",
+                "href": "tel:+15551234567",
+                "icon": "Phone",
+                "symbol": "☎"
+              },
+              {
+                "title": "Email Us",
+                "value": "info@finsecure.com",
+                "href": "mailto:info@finsecure.com",
+                "icon": "Mail",
+                "symbol": "✉"
+              },
+              {
+                "title": "Visit Us",
+                "value": "New York, USA",
+                "href": "https://maps.google.com/?q=New+York",
+                "icon": "MapPin",
+                "symbol": "⌖"
+              }
+            ],
+            "contact": [
+              {
+                "icon": "pin-solid",
+                "field": "address"
+              },
+              {
+                "icon": "phone-solid",
+                "field": "phone"
+              },
+              {
+                "icon": "mail-solid",
+                "field": "email"
+              },
+              {
+                "icon": "clock",
+                "field": "hoursShort"
+              }
+            ],
+            "copyright": "Copyright © 2026. All Rights Reserved. Powered By Lestow.",
+            "tagline": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth."
+          }
+        }
+      },
+      "Homecare": {
+        "variants": {
+          "InsuranceHomecare1": {
+            "image": "/images/home/banner2.webp",
+            "imageAlt": "An elderly couple smiling together at home",
+            "title": [
+              "Dedicated to Providing the Best",
+              "In-Home Health Care."
+            ],
+            "tagline": "Care that feels like home"
+          }
+        }
+      },
+      "Team": {
+        "variants": {
+          "InsuranceTeam1": {
+            "heroTitle": "Our Team",
+            "eyebrow": "Our Team",
+            "title": "Meet Our Expert Team",
+            "members": [
+              {
+                "name": "Emily Carter",
+                "role": "Investment Advisor",
+                "description": "",
+                "image": "/images/team-1.png",
+                "imageAlt": "Emily Carter - Investment Advisor",
+                "href": "/team",
+                "linkLabel": "Share Emily Carter's profile"
+              },
+              {
+                "name": "Michael Brooks",
+                "role": "Financial Consultant",
+                "description": "",
+                "image": "/images/team-2.png",
+                "imageAlt": "Michael Brooks - Financial Consultant",
+                "href": "/team",
+                "linkLabel": "Share Michael Brooks's profile"
+              },
+              {
+                "name": "David Collins",
+                "role": "Risk & Compliance Manager",
+                "description": "",
+                "image": "/images/team-3.png",
+                "imageAlt": "David Collins - Risk & Compliance Manager",
+                "href": "/team",
+                "linkLabel": "Share David Collins's profile"
+              }
+            ]
+          }
+        }
+      },
+      "Gallery": {
+        "variants": {
+          "InsuranceGallery1": {
+            "title": [
+              "Our Gallery"
+            ],
+            "heading": [
+              "A Glimpse of Our",
+              "Restaurant"
+            ],
+            "items": [
+              {
+                "src": "/images/gallery-restaurant.webp",
+                "alt": "Elegant Aurevia restaurant interior",
+                "className": "col-span-2 row-span-2",
+                "imageClass": "object-center",
+                "delay": 0
+              },
+              {
+                "src": "/images/gallery-food1.webp",
+                "alt": "Delicious grilled salmon with fresh vegetables",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.12
+              },
+              {
+                "src": "/images/menu-fruit-bowl.webp",
+                "alt": "Freshly prepared penne pasta",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.2
+              },
+              {
+                "src": "/images/menu-idli.webp",
+                "alt": "Chocolate lava cake with vanilla ice cream",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.28
+              },
+              {
+                "src": "/images/menu-sandwich.webp",
+                "alt": "Beautifully arranged restaurant dining table",
+                "className": "col-span-1 row-span-1",
+                "imageClass": "object-center",
+                "delay": 0.36
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "homePage": {
+    "treatmentProcess": {
+      "eyebrow": "Our Treatment Process",
+      "title": "A Simple & Supportive",
+      "highlight": "IVF Journey",
+      "description": "A step-by-step, personalized process to guide you from consultation to a successful pregnancy.",
+      "previousStepLabel": "Previous treatment step",
+      "nextStepLabel": "Next treatment step",
+      "paginationLabel": "Go to treatment step",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Initial Consultation",
+          "description": "Meet our fertility expert to discuss your concerns, history and treatment options.",
+          "icon": "messageCircle"
+        },
+        {
+          "number": "02",
+          "title": "Fertility Assessment",
+          "description": "A detailed evaluation with required tests to understand your fertility health.",
+          "icon": "clipboardCheck"
+        },
+        {
+          "number": "03",
+          "title": "Personalized Treatment Plan",
+          "description": "A tailored IVF plan designed for your unique needs and best possible results.",
+          "icon": "calendarCheck"
+        },
+        {
+          "number": "04",
+          "title": "IVF Treatment",
+          "description": "Carefully monitored procedures including egg retrieval, fertilization and embryo development.",
+          "icon": "microscope"
+        },
+        {
+          "number": "05",
+          "title": "Pregnancy & Follow-Up",
+          "description": "Embryo transfer and ongoing care with pregnancy testing and continuous support throughout your journey.",
+          "icon": "baby"
+        }
+      ]
+    },
+    "faqSection": {
+      "eyebrow": "Have Questions?",
+      "title": "Frequently Asked",
+      "highlight": "Questions",
+      "description": "Find answers to common questions about fertility, IVF treatments, appointments, and the care we provide. We are here to make your journey easier to understand.",
+      "items": [
+        {
+          "question": "What is IVF and how does the process work?",
+          "answer": "In Vitro Fertilization (IVF) is a fertility treatment in which eggs and sperm are combined in a laboratory. If fertilization occurs, an embryo may be transferred to the uterus. Your fertility specialist will explain each stage and help determine whether IVF is appropriate for you."
+        },
+        {
+          "question": "Who may benefit from fertility treatment?",
+          "answer": "Fertility treatment may be considered for people experiencing difficulties conceiving or those with certain reproductive health conditions. A consultation and appropriate medical assessment help determine the most suitable options."
+        },
+        {
+          "question": "How long does an IVF treatment cycle take?",
+          "answer": "The timeline varies depending on your medical history, treatment protocol, and individual response. A treatment cycle may take several weeks, and your doctor will provide a personalized timeline after your assessment."
+        },
+        {
+          "question": "Is IVF treatment painful?",
+          "answer": "Experiences differ from person to person. Some stages may involve mild discomfort, and your medical team can explain what to expect and discuss ways to manage discomfort throughout treatment."
+        },
+        {
+          "question": "What tests are required before starting IVF?",
+          "answer": "Your doctor may recommend blood tests, ultrasound scans, and other assessments based on your medical history. Testing helps your specialist understand your reproductive health and plan appropriate care."
+        },
+        {
+          "question": "What factors affect the cost of IVF treatment?",
+          "answer": "The overall cost depends on the treatment plan, investigations, medications, procedures, and any additional services required. Our team can explain the expected costs before treatment begins."
+        },
+        {
+          "question": "Can I continue my normal routine during treatment?",
+          "answer": "Many everyday activities can continue during parts of treatment, but recommendations may change depending on the treatment stage. Follow the guidance provided by your fertility specialist."
+        },
+        {
+          "question": "How can I book an appointment?",
+          "answer": "You can contact our care team through the appointment form, phone, or contact page. Our team will help arrange a consultation at a convenient time."
+        }
+      ]
+    },
+    "finSecure": {
+      "metadata": {
+        "title": "Create Next App",
+        "description": "Generated by create next app",
+        "language": "en",
+        "icon": "/favicon.webp"
+      },
+      "brand": {
+        "name": "FinSecure",
+        "logo": "/images/logo.webp",
+        "logoAlt": "FinSecure Financial Advisory Services",
+        "footerLogo": "/images/white-logo.webp",
+        "footerLogoAlt": "FinSecure Financial Advisory Services",
+        "clientLogo": "/images/logo-icon.webp",
+        "clientLogoAlt": "FinSecure",
+        "clientLabel": "FinSecure Client"
+      },
+      "navbar": {
+        "location": "New York, USA",
+        "phone": "+1 (555) 123-4567",
+        "phoneHref": "tel:+15551234567",
+        "email": "info@finsecure.com",
+        "emailHref": "mailto:info@finsecure.com",
+        "navLinks": [
+          { "name": "Home", "href": "/" },
+          { "name": "About Us", "href": "/about" },
+          { "name": "Our Services", "href": "/services" },
+          { "name": "Why Choose Us", "href": "/why-choose-us" },
+          { "name": "Our Team", "href": "/team" },
+          { "name": "Testimonials", "href": "/testimonials" },
+          { "name": "FAQs", "href": "/faqs" }
+        ],
+        "socialLinks": [
+          { "name": "Facebook", "href": "#", "icon": "facebook", "size": 17 },
+          { "name": "LinkedIn", "href": "#", "icon": "linkedin", "size": 19 },
+          { "name": "X", "href": "#", "icon": "x", "size": 19 },
+          { "name": "YouTube", "href": "#", "icon": "youtube", "size": 20 }
+        ],
+        "contactLabel": "Contact Us",
+        "contactHref": "/contact",
+        "openMenuLabel": "Open menu",
+        "closeMenuLabel": "Close menu"
+      },
+      "hero": {
+        "badge": ["Finance", "Banking", "Insurance"],
+        "badgeSeparator": "|",
+        "heading": "Your Trusted Partner for",
+        "highlight": "Banking, Insurance & Financial Growth",
+        "descriptionLines": [
+          "Comprehensive financial solutions to help you save, invest, borrow and stay protected —",
+          "all under one trusted platform."
+        ],
+        "images": {
+          "shield": {
+            "src": "/images/shield.webp",
+            "alt": "Financial security shield",
+            "width": 115,
+            "height": 115
+          },
+          "coins": {
+            "src": "/images/coins.webp",
+            "alt": "Golden savings coins",
+            "width": 160,
+            "height": 120
+          },
+          "growth": {
+            "src": "/images/growth.webp",
+            "alt": "Financial growth chart",
+            "width": 160,
+            "height": 120
+          }
+        },
+        "buttons": [
+          { "label": "Explore Our Services", "href": "/services" },
+          { "label": "Get a Consultation", "href": "/contact" }
+        ]
+      },
+      "about": {
+        "badge": "About Us",
+        "heading": "Your Trusted Partner for",
+        "highlight": "Finance, Banking & Insurance",
+        "description": "We are a customer-focused financial services company, committed to delivering reliable banking, smart investment and comprehensive insurance solutions for individuals, families and businesses.",
+        "images": {
+          "consultation": {
+            "src": "/images/about-consultation.webp",
+            "alt": "Financial consultant advising a client"
+          },
+          "main": {
+            "src": "/images/about-main.webp",
+            "alt": "FinSecure financial advisor consulting with clients"
+          },
+          "team": {
+            "src": "/images/about-team.webp",
+            "alt": "Professional financial advisor meeting clients"
+          },
+          "experience": {
+            "src": "/images/landmark.webp",
+            "alt": "Financial growth chart",
+            "width": 160,
+            "height": 120
+          },
+          "growth": {
+            "src": "/images/handCoins.webp",
+            "alt": "Financial growth chart",
+            "width": 160,
+            "height": 120
+          }
+        },
+        "commitment": {
+          "title": "Our Commitment",
+          "description": "To provide secure, transparent and personalized financial solutions that help you achieve your life goals."
+        },
+        "experience": {
+          "value": "10+",
+          "lines": ["Years of", "Experience"]
+        }
+      },
+      "financialServices": {
+        "defaultActiveNumber": "03",
+        "viewServiceLabelTemplate": "View {title}",
+        "items": [
+          {
+            "number": "01",
+            "title": "Personal Banking",
+            "firstLine": "Personal",
+            "secondLine": "Banking",
+            "icon": "landmark",
+            "description": "Manage your finances with reliable banking solutions designed around your everyday needs and financial goals.",
+            "benefits": [
+              "Flexible Banking Solutions",
+              "Secure Transactions",
+              "Personalized Banking Support"
+            ],
+            "image": "/images/financial-advisor.webp",
+            "alt": "Personal banking and financial consultation"
+          },
+          {
+            "number": "02",
+            "title": "Insurance Solutions",
+            "firstLine": "Insurance",
+            "secondLine": "Solutions",
+            "icon": "shield",
+            "description": "Protect what matters most with comprehensive insurance solutions designed to secure your family, assets and future.",
+            "benefits": [
+              "Life & Health Protection",
+              "Customized Insurance Plans",
+              "Reliable Financial Security"
+            ],
+            "image": "/images/faq-main.webp",
+            "alt": "Insurance consultation and financial protection"
+          },
+          {
+            "number": "03",
+            "title": "Investment Planning",
+            "firstLine": "Investment",
+            "secondLine": "Planning",
+            "icon": "handCoins",
+            "description": "Grow and manage your wealth with personalized investment solutions designed to meet your short and long-term goals.",
+            "benefits": [
+              "Wealth Creation",
+              "Goal-Based Investments",
+              "Portfolio Management"
+            ],
+            "image": "/images/investment-planning.webp",
+            "alt": "Professional financial advisor discussing investment planning with clients"
+          },
+          {
+            "number": "04",
+            "title": "Loan & Credit Solutions",
+            "firstLine": "Loan &",
+            "secondLine": "Credit Solutions",
+            "icon": "handCoins",
+            "description": "Get access to flexible lending and credit solutions that help you achieve your personal and business financial goals.",
+            "benefits": [
+              "Flexible Loan Options",
+              "Competitive Interest Solutions",
+              "Easy Credit Assistance"
+            ],
+            "image": "/images/about-team.webp",
+            "alt": "Loan and credit financial solutions"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "badge": "Why Choose Us",
+        "heading": "Where Financial Wisdom",
+        "headingMiddle": "Meets",
+        "highlight": "Exceptional Results",
+        "tablistLabel": "About FinSecure",
+        "image": {
+          "src": "/images/financial-advisor.webp",
+          "alt": "Financial analyst reviewing investment market performance"
+        },
+        "award": {
+          "image": {
+            "src": "/images/trophy.webp",
+            "alt": "Financial growth chart",
+            "width": 160,
+            "height": 120
+          },
+          "headingLines": ["Best Financial", "Consulting Award"]
+        },
+        "tabs": [
+          {
+            "id": "history",
+            "label": "Our History",
+            "description": "With years of industry experience, we have built a strong foundation of trust by delivering reliable financial solutions, strategic guidance and measurable results for our clients.",
+            "features": [
+              "Wealth Management",
+              "Retirement Solutions",
+              "Investment Planning",
+              "Risk Management"
+            ]
+          },
+          {
+            "id": "mission",
+            "label": "Our Mission",
+            "description": "Our mission is to empower individuals, families and businesses with transparent financial guidance, innovative banking solutions and personalized strategies that create lasting financial security.",
+            "features": [
+              "Customer-First Approach",
+              "Transparent Solutions",
+              "Financial Protection",
+              "Personalized Guidance"
+            ]
+          },
+          {
+            "id": "vision",
+            "label": "Our Vision",
+            "description": "We envision becoming a trusted financial partner, helping every client achieve financial independence through smart investments, responsible planning and sustainable financial growth.",
+            "features": [
+              "Financial Independence",
+              "Long-Term Growth",
+              "Smart Investments",
+              "Trusted Partnerships"
+            ]
+          }
+        ]
+      },
+      "bankingPartners": {
+        "badge": "Our Banking Partners",
+        "heading": "Trusted by Leading",
+        "highlight": "Banks & Financial Institutions",
+        "items": [
+          { "name": "HDFC Bank", "image": "/images/hdfc.webp", "width": 170 },
+          { "name": "ICICI Bank", "image": "/images/icici.webp", "width": 180 },
+          { "name": "SBI", "image": "/images/sbi.webp", "width": 145 },
+          { "name": "Axis Bank", "image": "/images/axis.webp", "width": 170 },
+          { "name": "Kotak Mahindra Bank", "image": "/images/kotak.webp", "width": 180 },
+          { "name": "IndusInd Bank", "image": "/images/indusind.webp", "width": 170 }
+        ]
+      },
+      "team": {
+        "badge": "Our Team",
+        "heading": "Meet Our",
+        "highlight": "Expert Team",
+        "description": "A team of experienced professionals dedicated to delivering innovative financial solutions and creating long-term value for our clients.",
+        "shareLabelTemplate": "Share {name}'s profile",
+        "shareTitleTemplate": "{name} | FinSecure",
+        "shareTextTemplate": "{name} - {role} at FinSecure.",
+        "imageAltTemplate": "{name} - {role}",
+        "members": [
+          { "id": 1, "name": "Emily Carter", "role": "Investment Advisor", "image": "/images/team-1.webp" },
+          { "id": 2, "name": "Michael Brooks", "role": "Financial Consultant", "image": "/images/team-2.webp" },
+          { "id": 3, "name": "David Collins", "role": "Risk & Compliance Manager", "image": "/images/team-3.webp" }
+        ]
+      },
+      "testimonials": {
+        "eyebrow": "Client Testimonials",
+        "heading": "What Our",
+        "highlight": "Clients Say",
+        "description": "Real experiences from our valued clients who trust us for their financial growth.",
+        "viewAllLabel": "View All Testimonials",
+        "viewAllHref": "/testimonials",
+        "starLabelTemplate": "{rating} out of 5 stars",
+        "imageAltTemplate": "{name}",
+        "reviewQuotePrefix": "“",
+        "reviewQuoteSuffix": "”",
+        "items": [
+          {
+            "id": 1,
+            "name": "James Anderson",
+            "role": "Business Owner",
+            "image": "/images/team-1.webp",
+            "review": "FinSecure helped me create a solid financial plan for my business. Their team is knowledgeable, professional and always supportive.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "name": "Sophia Martinez",
+            "role": "Investment Advisor",
+            "image": "/images/team-2.webp",
+            "review": "A truly reliable financial partner! They guided me with the right investment strategies and helped me achieve my long-term goals.",
+            "rating": 5
+          },
+          {
+            "id": 3,
+            "name": "Robert Wilson",
+            "role": "Corporate Director",
+            "image": "/images/team-3.webp",
+            "review": "Excellent service and customized financial solutions. The team takes time to understand your needs and delivers real, measurable results.",
+            "rating": 5
+          },
+          {
+            "id": 4,
+            "name": "Daniel Mitchell",
+            "role": "Entrepreneur",
+            "image": "/images/team-1.webp",
+            "review": "The team made financial planning simple and transparent. Their professional advice has helped us make better business decisions.",
+            "rating": 5
+          },
+          {
+            "id": 5,
+            "name": "Olivia Bennett",
+            "role": "Business Consultant",
+            "image": "/images/team-2.webp",
+            "review": "I appreciate their personalized approach and attention to detail. FinSecure has become a trusted partner for my financial needs.",
+            "rating": 5
+          }
+        ]
+      },
+      "faq": {
+        "badge": "FAQs",
+        "heading": "Frequently Asked",
+        "highlight": "Questions",
+        "description": "Find quick answers to common questions about our financial and consulting services.",
+        "image": {
+          "src": "/images/faq-main.webp",
+          "alt": "FinSecure financial consultant helping a client"
+        },
+        "teamAvatars": [
+          "/images/team-1.webp",
+          "/images/team-2.webp",
+          "/images/team-3.webp",
+          "/images/team-1.webp"
+        ],
+        "teamAvatarAltTemplate": "FinSecure team member {number}",
+        "contactCard": {
+          "heading": "Still have a question?",
+          "description": "Our team is here to help you with any queries you may have.",
+          "contactLabel": "Contact Us",
+          "phone": "+1 (555) 123-4567",
+          "phoneHref": "tel:+15551234567"
+        },
+        "items": [
+          {
+            "id": 1,
+            "question": "What services do you offer?",
+            "answer": "We provide a range of financial and consulting services including business strategy, financial planning, investment advisory, risk management, and operational consulting to help businesses grow and succeed."
+          },
+          {
+            "id": 2,
+            "question": "Who can benefit from your consulting services?",
+            "answer": "Our consulting services are designed for individuals, startups, small businesses, growing companies, and established organizations looking for reliable financial guidance and sustainable growth."
+          },
+          {
+            "id": 3,
+            "question": "How do you create a financial strategy for clients?",
+            "answer": "We begin by understanding your financial goals, current situation, and business requirements. Our experts then develop a personalized strategy with practical recommendations and measurable objectives."
+          },
+          {
+            "id": 4,
+            "question": "Do you offer personalized financial advice?",
+            "answer": "Yes. We provide personalized financial guidance based on your individual needs, financial objectives, investment preferences, and long-term plans."
+          },
+          {
+            "id": 5,
+            "question": "How do you ensure confidentiality of financial information?",
+            "answer": "We follow strict confidentiality practices and use appropriate security measures to protect client information and maintain the privacy of sensitive financial data."
+          }
+        ]
+      },
+      "contact": {
+        "backgroundImage": "/images/contact-bg.webp",
+        "contactInfo": [
+          {
+            "icon": "location",
+            "title": "Our Location",
+            "lines": ["742 Evergreen,", "62704, United States"]
+          },
+          {
+            "icon": "phone",
+            "title": "Call Us",
+            "lines": ["+1 00000000"]
+          },
+          {
+            "icon": "email",
+            "title": "Email Us",
+            "lines": ["info@XYZ.com"]
+          }
+        ],
+        "subjects": [
+          "Financial Consulting",
+          "Business Consulting",
+          "Investment Planning",
+          "Tax Advisory",
+          "Other"
+        ],
+        "badge": "Contact Us",
+        "heading": "Let’s Start the",
+        "highlight": "Conversation",
+        "description": "Whether you're looking for expert financial advice, strategic business consulting or long-term planning support, our team is here to help.",
+        "fields": {
+          "firstName": { "placeholder": "First Name *", "type": "text" },
+          "lastName": { "placeholder": "Last Name *", "type": "text" },
+          "email": { "placeholder": "Email Address *", "type": "email" },
+          "phone": { "placeholder": "Phone Number *", "type": "tel" },
+          "subject": { "placeholder": "Subject *" },
+          "message": { "placeholder": "Your Message..." }
+        },
+        "submitLabel": "Get Free Consultation"
+      },
+      "footer": {
+        "ctaHeading": ["Ready to Grow", "Your Financial Future?"],
+        "ctaHighlight": "Let's Talk.",
+        "brandLinkLabel": "FinSecure Home",
+        "brandLinkHref": "/",
+        "description": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth.",
+        "socialLinks": [
+          { "name": "Facebook", "href": "#", "icon": "facebook" },
+          { "name": "LinkedIn", "href": "#", "icon": "linkedin" },
+          { "name": "Instagram", "href": "#", "icon": "instagram" },
+          { "name": "YouTube", "href": "#", "icon": "youtube" },
+          { "name": "X", "href": "#", "icon": "x" }
+        ],
+        "quickLinksHeading": "Quick Links",
+        "quickLinks": [
+          { "name": "Home", "href": "/" },
+          { "name": "About Us", "href": "#about" },
+          { "name": "Our Services", "href": "#services" },
+          { "name": "Why Choose Us", "href": "/#why-choose-us" }
+        ],
+        "teamLinksHeading": "Our Team",
+        "teamLinks": [
+          { "name": "Our Team", "href": "#team" },
+          { "name": "Testimonials", "href": "#testimonials" },
+          { "name": "FAQs", "href": "#faqs" },
+          { "name": "Contact Us", "href": "#contact" }
+        ],
+        "contactHeading": "Get In Touch",
+        "contactDetails": [
+          {
+            "icon": "location",
+            "text": "742 Evergreen Terrace, 62704, United States",
+            "href": "https://maps.google.com/?q=New+York"
+          },
+          {
+            "icon": "phone",
+            "text": "+1 00000000",
+            "href": "tel:+1 00000000"
+          },
+          {
+            "icon": "email",
+            "text": "info@XYZ.com",
+            "href": "mailto:info@XYZ.com"
+          }
+        ],
+        "excellenceImage": {
+          "src": "/images/excellence-logo.webp",
+          "alt": "Financial growth chart",
+          "width": 160,
+          "height": 120
+        },
+        "copyright": "Copyright © 2026. All Rights Reserved. Powered By Lestow."
+      }
+    }
+  }
+}
