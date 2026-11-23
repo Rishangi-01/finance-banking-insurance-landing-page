@@ -939,7 +939,7 @@
         "title": "Fertility Treatments",
         "viewAll": {
           "label": "Our Services",
-          "href": "/services"
+          "href": "#services"
         },
         "collections": [
           {
@@ -993,7 +993,7 @@
               "openLabel": "Open navigation menu",
               "closeLabel": "Close navigation menu",
               "contactLabel": "Contact Us",
-              "contactHref": "/contact",
+              "contactHref": "#contact",
               "ariaLabel": "Mobile navigation",
               "phoneLabel": "+1 (555) 123-4567",
               "phoneHref": "tel:+15551234567",
@@ -1064,25 +1064,25 @@
               },
               {
                 "label": "About Us",
-                "href": "/about"
+                "href": "#about"
               },
               {
                 "label": "Our Services",
-                "href": "/services",
+                "href": "#services",
                 "dropdown": false
               },
               {
                 "label": "Why Choose Us",
-                "href": "/why-choose-us"
+                "href": "#why-choose-us"
               },
               {
                 "label": "Our Team",
-                "href": "/team"
+                "href": "#team"
               }
             ],
             "button": {
               "label": "Contact Us",
-              "href": "/contact"
+              "href": "#contact"
             }
           }
         }
@@ -1211,7 +1211,7 @@
             ],
             "button": {
               "label": "Explore Our Services",
-              "href": "/services"
+              "href": "#services"
             },
             "pageParagraphs": [
               "We are a customer-focused financial services company, committed to delivering reliable banking, smart investment and comprehensive insurance solutions for individuals, families and businesses.",
@@ -1227,7 +1227,7 @@
               ],
               "button": {
                 "label": "Get a Consultation",
-                "href": "/contact"
+                "href": "#contact"
               },
               "image": "/images/about-consultation.png",
               "imageAlt": "Financial consultant advising a client"
@@ -1621,7 +1621,7 @@
             "processSectionTitle": "Your Treatment Journey",
             "processSectionText": "Each treatment follows its own clinical process. Your specialist will explain the steps and timing that apply to your plan.",
             "treatmentPrefix": "Treatment",
-            "contactHref": "/contact",
+            "contactHref": "#contact",
             "supportTitle": "Take the Next Step With Confidence",
             "supportButton": {
               "label": "Book an Appointment",
@@ -1840,7 +1840,7 @@
             "image": "/images/contact-bg.png",
             "button": {
               "label": "Contact Us",
-              "href": "/contact"
+              "href": "#contact"
             }
           }
         }
@@ -2301,7 +2301,7 @@
             ],
             "primaryButton": {
               "label": "Send Another Message",
-              "href": "/contact"
+              "href": "#contact"
             },
             "secondaryButton": {
               "label": "Book Another Appointment",
@@ -2469,11 +2469,11 @@
                   },
                   {
                     "label": "About Us",
-                    "href": "/about"
+                    "href": "#about"
                   },
                   {
                     "label": "Our Services",
-                    "href": "/services"
+                    "href": "#services"
                   },
                   {
                     "label": "Why Choose Us",
@@ -2481,7 +2481,7 @@
                   },
                   {
                     "label": "Contact Us",
-                    "href": "/contact"
+                    "href": "#contact"
                   }
                 ]
               },
@@ -2491,7 +2491,7 @@
                 "links": [
                   {
                     "label": "Our Team",
-                    "href": "/team"
+                    "href": "#team"
                   },
                   {
                     "label": "Testimonials",
@@ -2503,11 +2503,11 @@
                   },
                   {
                     "label": "Contact Us",
-                    "href": "/contact"
+                    "href": "#contact"
                   },
                   {
                     "label": "Our Services",
-                    "href": "/services"
+                    "href": "#services"
                   }
                 ]
               }
@@ -2585,7 +2585,7 @@
                 "description": "",
                 "image": "/images/team-1.png",
                 "imageAlt": "Emily Carter - Investment Advisor",
-                "href": "/team",
+                "href": "#team",
                 "linkLabel": "Share Emily Carter's profile"
               },
               {
@@ -2594,7 +2594,7 @@
                 "description": "",
                 "image": "/images/team-2.png",
                 "imageAlt": "Michael Brooks - Financial Consultant",
-                "href": "/team",
+                "href": "#team",
                 "linkLabel": "Share Michael Brooks's profile"
               },
               {
@@ -2603,7 +2603,7 @@
                 "description": "",
                 "image": "/images/team-3.png",
                 "imageAlt": "David Collins - Risk & Compliance Manager",
-                "href": "/team",
+                "href": "#team",
                 "linkLabel": "Share David Collins's profile"
               }
             ]
@@ -2769,10 +2769,10 @@
         "emailHref": "mailto:info@finsecure.com",
         "navLinks": [
           { "name": "Home", "href": "/" },
-          { "name": "About Us", "href": "/about" },
-          { "name": "Our Services", "href": "/services" },
-          { "name": "Why Choose Us", "href": "/why-choose-us" },
-          { "name": "Our Team", "href": "/team" },
+          { "name": "About Us", "href": "#about" },
+          { "name": "Our Services", "href": "#services" },
+          { "name": "Why Choose Us", "href": "#why-choose-us" },
+          { "name": "Our Team", "href": "#team" },
           { "name": "Testimonials", "href": "/testimonials" },
           { "name": "FAQs", "href": "/faqs" }
         ],
@@ -2783,7 +2783,7 @@
           { "name": "YouTube", "href": "#", "icon": "youtube", "size": 20 }
         ],
         "contactLabel": "Contact Us",
-        "contactHref": "/contact",
+        "contactHref": "#contact",
         "openMenuLabel": "Open menu",
         "closeMenuLabel": "Close menu"
       },
@@ -2817,8 +2817,8 @@
           }
         },
         "buttons": [
-          { "label": "Explore Our Services", "href": "/services" },
-          { "label": "Get a Consultation", "href": "/contact" }
+          { "label": "Explore Our Services", "href": "#services" },
+          { "label": "Get a Consultation", "href": "#contact" }
         ]
       },
       "about": {
