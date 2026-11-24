@@ -23,24 +23,24 @@ export default function HeroSection() {
   return (
     <section id="home" className="relative isolate flex min-h-[580px] w-full items-center justify-center overflow-hidden bg-[#f5f8f5] px-4 sm:px-6 md:min-h-[620px] lg:min-h-[680px] py-12 sm:py-16 lg:py-16">
 
-      {/* BACKGROUND DECORATION */}
+
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
 
-        {/* Soft green glow */}
+
         <div className="absolute left-1/2 top-1/2 h-[450px] w-[850px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d9eadb]/30 blur-[110px]" />
 
         <div className="absolute left-0 top-0 h-full w-full bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(224,235,225,0.25)_100%)]" />
 
-        {/* Subtle decorative circles */}
+
         <div className="absolute -left-32 top-20 h-64 w-64 rounded-full border border-[#23843b]/[0.06]" />
         <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full border border-[#23843b]/[0.06]" />
 
       </div>
 
-      {/* MAIN CONTENT */}
+
       <div className="relative mx-auto flex w-full max-w-[1600px] flex-col items-center text-center">
 
-        {/* TOP LEFT SHIELD IMAGE */}
+
         <motion.div
           initial={{ opacity: 0, x: -40, rotate: -15 }}
           animate={{ opacity: 1, x: 0, rotate: 0 }}
@@ -66,7 +66,7 @@ export default function HeroSection() {
           </motion.div>
         </motion.div>
 
-        {/* CATEGORY BADGE */}
+
         <motion.div
           initial="hidden"
           animate="visible"
@@ -93,7 +93,7 @@ export default function HeroSection() {
           <span className="hidden h-px w-12 bg-[#39864f] sm:block md:w-16" />
         </motion.div>
 
-        {/* MAIN HEADING */}
+
         <motion.div
           initial="hidden"
           animate="visible"
@@ -120,7 +120,7 @@ export default function HeroSection() {
           </motion.h2>
         </motion.div>
 
-        {/* DESCRIPTION */}
+
         <motion.p
           initial="hidden"
           animate="visible"
@@ -136,7 +136,7 @@ export default function HeroSection() {
           ))}
         </motion.p>
 
-        {/* CTA BUTTONS */}
+
         <motion.div
           initial="hidden"
           animate="visible"
@@ -176,7 +176,7 @@ export default function HeroSection() {
 
         </motion.div>
 
-        {/* BOTTOM LEFT COINS */}
+
         <motion.div
           initial={{ opacity: 0, x: -50, y: 30 }}
           animate={{ opacity: 1, x: 0, y: 0 }}
@@ -201,7 +201,7 @@ export default function HeroSection() {
           </motion.div>
         </motion.div>
 
-        {/* BOTTOM RIGHT GROWTH IMAGE */}
+
         <motion.div
           initial={{ opacity: 0, x: 50, y: 30 }}
           animate={{ opacity: 1, x: 0, y: 0 }}

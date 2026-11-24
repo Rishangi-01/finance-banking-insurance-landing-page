@@ -1,23 +1,11 @@
-
 "use client";
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import {
-  MapPin,
-  Phone,
-  Mail,
-  ArrowRight,
-  Menu,
-  X,
-} from "lucide-react";
+import { useState, useEffect } from "react";
+import { MapPin, Phone, Mail, ArrowRight, Menu, X } from "lucide-react";
 
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -37,16 +25,86 @@ export default function Navbar() {
     navbarContentData.navLinks[0].name,
   );
 
-  return (
-    <header className="relative z-50 w-full bg-white">
+  useEffect(() => {
+  const sections = navbarContentData.navLinks
+  .map((link) => {
+    const hash = link.href.split("#")[1];
 
+    const id = hash
+      ? decodeURIComponent(hash)
+      : link.name.toLowerCase() === "home"
+        ? "home"
+        : null;
+
+    if (!id) return null;
+
+    return {
+      name: link.name,
+      element: document.getElementById(id),
+    };
+  })
+    .filter(
+      (item): item is {
+        name: string;
+        element: HTMLElement;
+      } => item !== null && item.element !== null,
+    );
+
+  if (!sections.length) return;
+
+  const updateActiveSection = () => {
+    const navElement = document.querySelector("nav");
+
+    // Account for the sticky navbar height
+    const navHeight = navElement?.getBoundingClientRect().height ?? 100;
+
+    const activationPoint = navHeight + 30;
+
+    // At the top of the page, Home should always be active
+    if (window.scrollY <= 10) {
+      setActiveLink(sections[0].name);
+      return;
+    }
+
+    // Find the last section that has reached the activation point
+    let currentSection = sections[0];
+
+    for (const section of sections) {
+      const rect = section.element.getBoundingClientRect();
+
+      if (rect.top <= activationPoint) {
+        currentSection = section;
+      } else {
+        break;
+      }
+    }
+
+    setActiveLink(currentSection.name);
+  };
+
+  // Run immediately on page load
+  updateActiveSection();
+
+  // Update while scrolling
+  window.addEventListener("scroll", updateActiveSection, {
+    passive: true,
+  });
+
+  window.addEventListener("resize", updateActiveSection);
+
+  return () => {
+    window.removeEventListener("scroll", updateActiveSection);
+    window.removeEventListener("resize", updateActiveSection);
+  };
+}, []);
+
+  return (
+    <header className="sticky top-0 z-[100] w-full bg-white">
       {/* TOP INFORMATION BAR */}
       <div className="bg-[#062442] text-white">
         <div className="mx-auto flex min-h-[50px] max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-10">
-
           {/* Contact Information */}
           <div className="flex items-center gap-4 md:gap-5">
-
             <div className="flex items-center gap-2 text-[13px] font-medium sm:text-sm">
               <MapPin size={19} className="shrink-0" />
               <span>{navbarContentData.location}</span>
@@ -71,12 +129,10 @@ export default function Navbar() {
               <Mail size={19} />
               <span>{navbarContentData.email}</span>
             </a>
-
           </div>
 
           {/* Social Media */}
           <div className="flex items-center gap-4 sm:gap-5">
-
             {navbarContentData.socialLinks.map((social) => {
               const Icon = Object.entries(socialIconMap).find(
                 ([name]) => name === social.icon,
@@ -97,17 +153,12 @@ export default function Navbar() {
                 </a>
               );
             })}
-
           </div>
         </div>
       </div>
 
-    
-      <nav className="relative bg-white shadow-[0_5px_20px_rgba(0,0,0,0.06)]">
-
+      <nav className="sticky top-0 z-[100] bg-white shadow-[0_5px_20px_rgba(0,0,0,0.06)]">
         <div className="mx-auto flex h-[63px] max-w-[1440px] items-center justify-between px-3 sm:px-8 lg:h-[100px] lg:px-10">
-
-          {/* LOGO */}
           <Link
             href={navbarContentData.navLinks[0].href}
             className="group relative flex shrink-0 items-center"
@@ -126,9 +177,7 @@ export default function Navbar() {
             />
           </Link>
 
-          
           <div className="hidden items-center gap-6 xl:flex 2xl:gap-7">
-
             {navbarContentData.navLinks.map((link, index) => (
               <motion.div
                 key={link.name}
@@ -151,7 +200,6 @@ export default function Navbar() {
                 >
                   {link.name}
 
-                  
                   <span
                     className={`absolute bottom-0 left-0 h-[3px] rounded-full bg-[#339b13] transition-all duration-300 ${
                       activeLink === link.name
@@ -162,10 +210,8 @@ export default function Navbar() {
                 </Link>
               </motion.div>
             ))}
-
           </div>
 
-          
           <Link
             href={navbarContentData.contactHref}
             className="group hidden shrink-0 items-center gap-2 rounded-full border border-[#0a2440] bg-[#319b12] px-5 py-3.5 text-[15px] font-bold text-white shadow-[0_5px_12px_rgba(0,0,0,0.18)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#267e0d] hover:shadow-[0_8px_20px_rgba(49,155,18,0.25)] xl:flex 2xl:px-6"
@@ -184,7 +230,6 @@ export default function Navbar() {
             />
           </Link>
 
-          
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={
@@ -207,10 +252,8 @@ export default function Navbar() {
               </motion.span>
             </AnimatePresence>
           </button>
-
         </div>
 
-        
         <AnimatePresence>
           {menuOpen && (
             <motion.div
@@ -221,9 +264,7 @@ export default function Navbar() {
               className="absolute left-0 top-full w-full overflow-hidden border-t border-gray-100 bg-white shadow-xl xl:hidden"
             >
               <div className="mx-auto max-w-[1440px] px-5 py-5 sm:px-8">
-
                 <div className="flex flex-col">
-
                   {navbarContentData.navLinks.map((link, index) => (
                     <motion.div
                       key={link.name}
@@ -255,10 +296,8 @@ export default function Navbar() {
                       </Link>
                     </motion.div>
                   ))}
-
                 </div>
 
-                
                 <Link
                   href={navbarContentData.contactHref}
                   onClick={() => setMenuOpen(false)}
@@ -269,26 +308,27 @@ export default function Navbar() {
                   <ArrowRight size={18} />
                 </Link>
 
-                
                 <div className="mt-5 flex flex-col gap-3 text-sm text-[#062442]">
-
-                  <a href={navbarContentData.phoneHref} className="flex items-center gap-2">
+                  <a
+                    href={navbarContentData.phoneHref}
+                    className="flex items-center gap-2"
+                  >
                     <Phone size={16} className="text-[#319b12]" />
                     {navbarContentData.phone}
                   </a>
 
-                  <a href={navbarContentData.emailHref} className="flex items-center gap-2">
+                  <a
+                    href={navbarContentData.emailHref}
+                    className="flex items-center gap-2"
+                  >
                     <Mail size={17} className="text-[#319b12]" />
                     {navbarContentData.email}
                   </a>
-
                 </div>
-
               </div>
             </motion.div>
           )}
         </AnimatePresence>
-
       </nav>
     </header>
   );

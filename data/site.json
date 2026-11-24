@@ -1077,7 +1077,7 @@
               },
               {
                 "label": "Our Team",
-                "href": "#team"
+                "href": "#our-team"
               }
             ],
             "button": {
@@ -2491,15 +2491,15 @@
                 "links": [
                   {
                     "label": "Our Team",
-                    "href": "#team"
+                    "href": "#our-team"
                   },
                   {
                     "label": "Testimonials",
-                    "href": "/testimonials"
+                    "href": "#testimonials"
                   },
                   {
                     "label": "FAQs",
-                    "href": "/faqs"
+                    "href": "#faqs"
                   },
                   {
                     "label": "Contact Us",
@@ -2585,7 +2585,7 @@
                 "description": "",
                 "image": "/images/team-1.png",
                 "imageAlt": "Emily Carter - Investment Advisor",
-                "href": "#team",
+                "href": "#our-team",
                 "linkLabel": "Share Emily Carter's profile"
               },
               {
@@ -2594,7 +2594,7 @@
                 "description": "",
                 "image": "/images/team-2.png",
                 "imageAlt": "Michael Brooks - Financial Consultant",
-                "href": "#team",
+                "href": "#our-team",
                 "linkLabel": "Share Michael Brooks's profile"
               },
               {
@@ -2603,7 +2603,7 @@
                 "description": "",
                 "image": "/images/team-3.png",
                 "imageAlt": "David Collins - Risk & Compliance Manager",
-                "href": "#team",
+                "href": "#our-team",
                 "linkLabel": "Share David Collins's profile"
               }
             ]
@@ -2768,13 +2768,13 @@
         "email": "info@finsecure.com",
         "emailHref": "mailto:info@finsecure.com",
         "navLinks": [
-          { "name": "Home", "href": "/" },
+          { "name": "Home", "href": "#home" },
           { "name": "About Us", "href": "#about" },
           { "name": "Our Services", "href": "#services" },
           { "name": "Why Choose Us", "href": "#why-choose-us" },
-          { "name": "Our Team", "href": "#team" },
-          { "name": "Testimonials", "href": "/testimonials" },
-          { "name": "FAQs", "href": "/faqs" }
+          { "name": "Our Team", "href": "#our-team" },
+          { "name": "Testimonials", "href": "#testimonials" },
+          { "name": "FAQs", "href": "#faqs" }
         ],
         "socialLinks": [
           { "name": "Facebook", "href": "#", "icon": "facebook", "size": 17 },
@@ -3016,7 +3016,7 @@
         "highlight": "Clients Say",
         "description": "Real experiences from our valued clients who trust us for their financial growth.",
         "viewAllLabel": "View All Testimonials",
-        "viewAllHref": "/testimonials",
+        "viewAllHref": "#testimonials",
         "starLabelTemplate": "{rating} out of 5 stars",
         "imageAltTemplate": "{name}",
         "reviewQuotePrefix": "“",
@@ -3177,7 +3177,7 @@
         ],
         "teamLinksHeading": "Our Team",
         "teamLinks": [
-          { "name": "Our Team", "href": "#team" },
+          { "name": "Our Team", "href": "#our-team" },
           { "name": "Testimonials", "href": "#testimonials" },
           { "name": "FAQs", "href": "#faqs" },
           { "name": "Contact Us", "href": "#contact" }
