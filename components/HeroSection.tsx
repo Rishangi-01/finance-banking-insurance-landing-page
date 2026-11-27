@@ -3,7 +3,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { heroContentData } from "@/data";
@@ -21,7 +20,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative isolate flex min-h-[580px] w-full items-center justify-center overflow-hidden bg-[#f5f8f5] px-4 sm:px-6 md:min-h-[620px] lg:min-h-[680px] py-12 sm:py-16 lg:py-16">
+    <section id="home" className="relative isolate flex min-h-[580px] w-full items-center justify-center overflow-hidden bg-[#f5f8f5] px-4 sm:px-6 md:min-h-[620px] lg:min-h-[640px] py-12 sm:py-16 lg:py-16">
 
 
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
@@ -126,14 +125,9 @@ export default function HeroSection() {
           animate="visible"
           variants={fadeUp}
           transition={{ delay: 0.3 }}
-          className="relative z-10 mx-auto mt-6 max-w-[900px] text-[15px] font-medium leading-[1.65] text-[#344b4d] sm:text-lg md:mt-7 md:text-xl lg:text-[22px]"
+          className="relative z-10 mx-auto mt-6 max-w-[900px] text-center text-[15px] font-medium leading-[1.65] text-[#344b4d] sm:text-lg md:mt-7 md:text-xl lg:text-[22px]"
         >
-          {heroContentData.descriptionLines.map((line, index) => (
-            <Fragment key={line}>
-              {index > 0 && <br className="hidden md:block" />}
-              {line}
-            </Fragment>
-          ))}
+          {heroContentData.descriptionLines.join(" ")}
         </motion.p>
 
 

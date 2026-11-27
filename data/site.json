@@ -1017,25 +1017,25 @@
                 "icon": "FaFacebookF",
                 "symbol": "f",
                 "label": "Facebook",
-                "href": "#"
+                "href": "https://www.facebook.com/"
               },
               {
                 "icon": "FaInstagram",
                 "symbol": "◎",
                 "label": "Instagram",
-                "href": "#"
+                "href": "https://www.instagram.com/"
               },
               {
                 "icon": "FaYoutube",
                 "symbol": "▶",
                 "label": "YouTube",
-                "href": "#"
+                "href": "https://www.youtube.com/"
               },
               {
                 "icon": "FaLinkedinIn",
                 "symbol": "in",
                 "label": "LinkedIn",
-                "href": "#"
+                "href": "https://in.linkedin.com/"
               }
             ],
             "hours": [
@@ -2777,10 +2777,10 @@
           { "name": "FAQs", "href": "#faqs" }
         ],
         "socialLinks": [
-          { "name": "Facebook", "href": "#", "icon": "facebook", "size": 17 },
-          { "name": "LinkedIn", "href": "#", "icon": "linkedin", "size": 19 },
-          { "name": "X", "href": "#", "icon": "x", "size": 19 },
-          { "name": "YouTube", "href": "#", "icon": "youtube", "size": 20 }
+          { "name": "Facebook", "href": "https://www.facebook.com/", "icon": "facebook", "size": 17 },
+          { "name": "LinkedIn", "href": "https://in.linkedin.com/", "icon": "linkedin", "size": 19 },
+          { "name": "X", "href": "https://x.com/", "icon": "x", "size": 19 },
+          { "name": "YouTube", "href": "https://www.youtube.com/", "icon": "youtube", "size": 20 }
         ],
         "contactLabel": "Contact Us",
         "contactHref": "#contact",
@@ -3121,17 +3121,20 @@
           {
             "icon": "location",
             "title": "Our Location",
-            "lines": ["742 Evergreen,", "62704, United States"]
+            "lines": ["742 Evergreen, ", " 62704, US"],
+            "href": "https://maps.google.com/?q=New+York"
           },
           {
             "icon": "phone",
             "title": "Call Us",
-            "lines": ["+1 00000000"]
+            "lines": ["+1 00000000"],
+            "href": "tel:+1 00000000"
           },
           {
             "icon": "email",
             "title": "Email Us",
-            "lines": ["info@XYZ.com"]
+            "lines": ["info@XYZ.com"],
+            "href": "mailto:info@XYZ.com"
           }
         ],
         "subjects": [
@@ -3162,11 +3165,11 @@
         "brandLinkHref": "/",
         "description": "Your trusted partner for strategic financial solutions, business consulting, and long-term growth.",
         "socialLinks": [
-          { "name": "Facebook", "href": "#", "icon": "facebook" },
-          { "name": "LinkedIn", "href": "#", "icon": "linkedin" },
-          { "name": "Instagram", "href": "#", "icon": "instagram" },
-          { "name": "YouTube", "href": "#", "icon": "youtube" },
-          { "name": "X", "href": "#", "icon": "x" }
+          { "name": "Facebook", "href": "https://www.facebook.com/", "icon": "facebook" },
+          { "name": "LinkedIn", "href": "https://in.linkedin.com/", "icon": "linkedin" },
+          { "name": "Instagram", "href": "https://www.instagram.com/", "icon": "instagram" },
+          { "name": "YouTube", "href": "https://www.youtube.com/", "icon": "youtube" },
+          { "name": "X", "href": "https://x.com/", "icon": "x" }
         ],
         "quickLinksHeading": "Quick Links",
         "quickLinks": [

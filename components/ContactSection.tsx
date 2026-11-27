@@ -113,12 +113,13 @@ export default function ContactSection() {
                       </h3>
 
                       {item.lines.map((line) => (
-                        <p
+                        <a
                           key={line}
+                          href={item.href}
                           className="break-words text-[11px] leading-[1.6] text-white/85 sm:text-xs"
                         >
                           {line}
-                        </p>
+                        </a>
                       ))}
                     </div>
                   </motion.div>

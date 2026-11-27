@@ -101,7 +101,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-[100] w-full bg-white">
       {/* TOP INFORMATION BAR */}
-      <div className="bg-[#062442] text-white">
+      <div className="bg-[#062442] text-white hidden lg:block">
         <div className="mx-auto flex min-h-[50px] max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-10">
           {/* Contact Information */}
           <div className="flex items-center gap-4 md:gap-5">

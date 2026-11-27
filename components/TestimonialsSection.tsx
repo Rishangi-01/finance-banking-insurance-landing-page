@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
   return (
     <section
       id="testimonials"
-      className="relative w-full overflow-hidden bg-[#eaf6f0] py-12 sm:py-16 lg:py-16"
+      className="relative w-full overflow-x-clip bg-[#eaf6f0] py-12 sm:py-16 lg:py-16"
     >
 
       {/* ================================= */}
@@ -116,21 +116,6 @@ export default function TestimonialsSection() {
             </p>
 
           </div>
-
-          {/* VIEW ALL BUTTON */}
-          <Link
-            href={testimonialsContentData.viewAllHref}
-            className="group inline-flex w-fit shrink-0 items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#efb42f] to-[#ffd05a] px-6 py-3 text-[14px] font-extrabold text-[#063b2d] shadow-[0_6px_20px_rgba(0,0,0,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_25px_rgba(0,0,0,0.2)] sm:text-base"
-          >
-
-            {testimonialsContentData.viewAllLabel}
-
-            <ArrowRight
-              size={19}
-              className="transition-transform duration-300 group-hover:translate-x-1"
-            />
-
-          </Link>
 
         </motion.div>
 
@@ -212,7 +197,8 @@ export default function TestimonialsSection() {
                   spaceBetween: 20,
                 },
               }}
-              className="testimonial-swiper overflow-visible"
+              className="testimonial-swiper"
+              style={{ overflow: "visible" }}
             >
               {testimonialsContentData.items.map((item) => (
                 <SwiperSlide key={item.id} className="!h-auto">
