@@ -995,8 +995,8 @@
               "contactLabel": "Contact Us",
               "contactHref": "#contact",
               "ariaLabel": "Mobile navigation",
-              "phoneLabel": "+1 (555) 123-4567",
-              "phoneHref": "tel:+15551234567",
+              "phoneLabel": "+1 00000000",
+              "phoneHref": "tel:+100000000",
               "emailLabel": "info@finsecure.com",
               "emailHref": "mailto:info@finsecure.com"
             },
@@ -1008,7 +1008,7 @@
               "info@finsecure.com"
             ],
             "phones": [
-              "+1 (555) 123-4567"
+              "+1 00000000"
             ],
             "callLabel": "Call Us",
             "bannerImage": "/images/financial-advisor.png",
@@ -2180,7 +2180,7 @@
                 "icon": "Phone",
                 "symbol": "☎",
                 "title": "Call Us",
-                "href": "tel:+15551234567",
+                "href": "tel:+100000000",
                 "field": "phones"
               },
               {
@@ -2225,7 +2225,7 @@
               "emailLabel": "Email Us",
               "emailValue": "info@finsecure.com",
               "phoneLabel": "Call Us",
-              "phoneValue": "+1 (555) 123-4567",
+              "phoneValue": "+1 00000000",
               "backgroundImage": "/images/contact-bg.png",
               "backgroundImageAlt": "",
               "fields": {
@@ -2516,8 +2516,8 @@
             "contactDetails": [
               {
                 "title": "Call Us",
-                "value": "+1 (555) 123-4567",
-                "href": "tel:+15551234567",
+                "value": "+1 00000000",
+                "href": "tel:+100000000",
                 "icon": "Phone",
                 "symbol": "☎"
               },
@@ -2763,8 +2763,8 @@
       },
       "navbar": {
         "location": "New York, USA",
-        "phone": "+1 (555) 123-4567",
-        "phoneHref": "tel:+15551234567",
+        "phone": "+1 00000000",
+        "phoneHref": "tel:+100000000",
         "email": "info@finsecure.com",
         "emailHref": "mailto:info@finsecure.com",
         "navLinks": [
@@ -3084,8 +3084,8 @@
           "heading": "Still have a question?",
           "description": "Our team is here to help you with any queries you may have.",
           "contactLabel": "Contact Us",
-          "phone": "+1 (555) 123-4567",
-          "phoneHref": "tel:+15551234567"
+          "phone": "+1 00000000",
+          "phoneHref": "tel:+100000000"
         },
         "items": [
           {

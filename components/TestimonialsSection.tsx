@@ -140,7 +140,7 @@ export default function TestimonialsSection() {
             duration: 0.9,
             delay: 0.15,
           }}
-          className="relative mt-9 sm:mt-10 lg:mt-9"
+          className="relative mt-9 sm:mt-10 lg:mt-9 overscroll-x-hidden"
         >
 
           <Suspense
